@@ -5,7 +5,10 @@
       "Skill(planning-with-files:planning-with-files)",
       "Bash(ls:*)",
       "Bash(curl:*)",
-      "Bash(./scripts/lookup-term.sh:*)"
+      "Bash(./scripts/lookup-term.sh:*)",
+      "Bash(printf:*)",
+      "Bash(bash scripts/split-kjv.sh:*)",
+      "Bash(git ls-tree:*)"
     ]
   }
 }
