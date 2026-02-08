@@ -30,10 +30,10 @@ CRITICAL: Before translating, read GLOSSARY.yaml and apply all term mappings fol
 6. **Check avoid lists** - Never use terms in avoid sections
 
 Glossary files:
-- /GLOSSARY.yaml (primary - all terms with context)
-- /GLOSSARY.cities.md (cities, places)
-- /GLOSSARY.people.md (person names)
-- /GLOSSARY.books.md (Bible book titles)
+- /GLOSSARY.yaml (divine names, theological terms, prayer verbs)
+- /GLOSSARY.people.yaml (person names)
+- /GLOSSARY.books.yaml (Bible book titles)
+- /GLOSSARY.cities.yaml (cities, places)
 
 ## Translation Guidelines
 

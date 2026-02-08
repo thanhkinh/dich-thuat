@@ -51,9 +51,10 @@ Use `/review-kjv-vi` skill. Checks:
 ## Structure
 
 ```
-├── GLOSSARY.yaml         # Master structured glossary (with decision trees)
-├── GLOSSARY.md           # Quick reference (legacy)
-├── GLOSSARY.*.md         # Categorized terms (cities, people, books)
+├── GLOSSARY.yaml         # Master glossary (divine names, theological terms, prayer verbs)
+├── GLOSSARY.people.yaml  # Biblical person names
+├── GLOSSARY.books.yaml   # Bible book titles
+├── GLOSSARY.cities.yaml  # Cities and places
 ├── samples/              # Translated chapters
 └── .claude/skills/       # Translation/review tools
 ```
