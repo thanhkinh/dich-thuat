@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{.Title}} - Vua James</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.6;
+            background: #f5f5f5;
+            color: #333;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        header {
+            background: linear-gradient(135deg, #1e3a5f 0%, #2c5282 100%);
+            color: white;
+            padding: 20px 0;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        header h1 {
+            font-size: 1.8rem;
+            font-weight: 600;
+        }
+
+        header .subtitle {
+            font-size: 0.9rem;
+            opacity: 0.9;
+            margin-top: 5px;
+        }
+
+        nav {
+            background: #fff;
+            border-bottom: 1px solid #e0e0e0;
+            padding: 15px 0;
+        }
+
+        nav .nav-links {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        nav a {
+            color: #2c5282;
+            text-decoration: none;
+            padding: 5px 10px;
+            border-radius: 4px;
+            transition: background 0.2s;
+        }
+
+        nav a:hover {
+            background: #e8f0fe;
+        }
+
+        main {
+            padding: 30px 0;
+            min-height: calc(100vh - 200px);
+        }
+
+        footer {
+            background: #1e3a5f;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 40px;
+        }
+
+        footer a {
+            color: #90cdf4;
+            text-decoration: none;
+        }
+
+        .book-card {
+            background: white;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 15px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .book-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+
+        .book-card h3 {
+            color: #1e3a5f;
+            margin-bottom: 10px;
+        }
+
+        .book-card a {
+            color: #2c5282;
+            text-decoration: none;
+        }
+
+        .chapter-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-top: 15px;
+        }
+
+        .chapter-link {
+            display: inline-block;
+            padding: 6px 12px;
+            background: #e8f0fe;
+            color: #2c5282;
+            text-decoration: none;
+            border-radius: 4px;
+            font-size: 0.9rem;
+            transition: background 0.2s;
+        }
+
+        .chapter-link:hover {
+            background: #2c5282;
+            color: white;
+        }
+
+        .chapter-nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 30px;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        }
+
+        .chapter-nav a {
+            padding: 10px 20px;
+            background: #2c5282;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+            transition: background 0.2s;
+        }
+
+        .chapter-nav a:hover {
+            background: #1e3a5f;
+        }
+
+        .chapter-nav .disabled {
+            background: #ccc;
+            pointer-events: none;
+        }
+
+        .verse {
+            background: white;
+            padding: 15px 20px;
+            margin-bottom: 15px;
+            border-radius: 8px;
+            border-left: 4px solid #2c5282;
+        }
+
+        .verse-number {
+            display: inline-block;
+            background: #2c5282;
+            color: white;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            margin-right: 10px;
+            vertical-align: super;
+        }
+
+        .verse-text {
+            display: inline;
+            color: #333;
+        }
+
+        .testament-section {
+            margin-bottom: 40px;
+        }
+
+        .testament-title {
+            font-size: 1.3rem;
+            color: #1e3a5f;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #2c5282;
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 1.4rem;
+            }
+
+            .chapter-nav {
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            .verse {
+                padding: 12px 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Vua James</h1>
+            <p class="subtitle">Kinh Thánh Tiếng Việt - Phiên dịch theo truyền thống King James</p>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <div class="nav-links">
+                <a href="/">Trang chủ</a>
+                {{range .Books}}
+                <a href="/book/{{.ID}}">{{.Name}}</a>
+                {{end}}
+            </div>
+        </div>
+    </nav>
+
+    <main class="container">
+        {{block "content" .}}{{end}}
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>Vua James (VJ) - KJV to Vietnamese Translation</p>
+            <p>CC0 1.0 Universal — Public Domain</p>
+            <p><a href="https://github.com/yourusername/vua-james" target="_blank">GitHub</a></p>
+        </div>
+    </footer>
+</body>
+</html>

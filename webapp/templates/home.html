@@ -1,0 +1,53 @@
+{{define "content"}}
+<div class="testament-section">
+    <h2 class="testament-title">Kinh Thánh Mới (New Testament)</h2>
+    {{range .Books}}
+    {{if or (eq .ID "NT-27")}}
+    <div class="book-card">
+        <h3><a href="/book/{{.ID}}">{{.Name}}</a></h3>
+        <div class="chapter-list">
+            {{range .Chapters}}
+            <a href="/book/{{$.ID}}/{{.}}" class="chapter-link">Chương {{.}}</a>
+            {{end}}
+        </div>
+    </div>
+    {{end}}
+    {{end}}
+</div>
+
+<div class="testament-section">
+    <h2 class="testament-title">Kinh Thánh Cũ (Old Testament)</h2>
+    {{range .Books}}
+    {{if or (eq .ID "OT-01") (eq .ID "OT-02") (eq .ID "OT-03")}}
+    <div class="book-card">
+        <h3><a href="/book/{{.ID}}">{{.Name}}</a></h3>
+        <div class="chapter-list">
+            {{range .Chapters}}
+            <a href="/book/{{$.ID}}/{{.}}" class="chapter-link">Chương {{.}}</a>
+            {{end}}
+        </div>
+    </div>
+    {{end}}
+    {{end}}
+</div>
+
+{{if len .Books}}
+{{if gt (len .Books) 4}}
+<div class="testament-section">
+    <h2 class="testament-title">Tất cả sách (All Books)</h2>
+    {{range .Books}}
+    {{if not (or (eq .ID "NT-27") (eq .ID "OT-01") (eq .ID "OT-02") (eq .ID "OT-03"))}}
+    <div class="book-card">
+        <h3><a href="/book/{{.ID}}">{{.Name}}</a></h3>
+        <div class="chapter-list">
+            {{range .Chapters}}
+            <a href="/book/{{$.ID}}/{{.}}" class="chapter-link">Chương {{.}}</a>
+            {{end}}
+        </div>
+    </div>
+    {{end}}
+    {{end}}
+</div>
+{{end}}
+{{end}}
+{{end}}
