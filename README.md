@@ -56,6 +56,20 @@ Use `/translate:review` skill. Checks:
 - `translate:revise` — Revise translations and update GLOSSARY entries
 - `glossary` — Update/validate term mappings
 
+## Web Application
+
+A web application is provided to browse and view the translations:
+
+```bash
+cd webapp
+bun install
+bun run dev
+```
+
+Visit `http://localhost:8080` to view the translations.
+
+See [webapp/README.md](webapp/README.md) for full documentation.
+
 ## Structure
 
 ```
@@ -63,7 +77,11 @@ Use `/translate:review` skill. Checks:
 ├── GLOSSARY.people.yaml  # Biblical person names
 ├── GLOSSARY.books.yaml   # Bible book titles
 ├── GLOSSARY.cities.yaml  # Cities and places
-└── .claude/skills/       # Translation/review tools
+├── .claude/skills/       # Translation/review tools
+├── webapp/               # Web application for viewing translations
+└── translations/
+    ├── kjv/              # KJV source files
+    └── vj/               # Vua James translation
 ```
 
 ## License

@@ -2,6 +2,7 @@ import { Elysia, t } from 'elysia';
 import { resolve } from 'path';
 
 const TRANSLATIONS_PATH = process.env.TRANSLATIONS_PATH || resolve(import.meta.dir, '../translations/vj');
+const GLOSSARY_PATH = process.env.GLOSSARY_PATH || resolve(import.meta.dir, '../GLOSSARY.books.yaml');
 const PORT = process.env.PORT || '8080';
 
 interface TranslationData {
@@ -21,18 +22,53 @@ interface Verse {
   text: string;
 }
 
-// Book name mapping
-const BOOK_NAMES: Record<string, string> = {
-  'NT-27': 'Khải Thị Lục (Revelation)',
-  'OT-01': 'Sáng Thế (Genesis)',
-  'OT-02': 'Xuất Đê (Exodus)',
-  'OT-03': 'Lê-vi (Leviticus)',
-};
+interface GlossaryBook {
+  english: string;
+  vietnamese: string;
+  code: string;
+  chapters: number;
+}
+
+interface GlossaryData {
+  books: {
+    old_testament?: GlossaryBook[];
+    new_testament?: GlossaryBook[];
+  };
+}
+
+// Load book names from GLOSSARY.books.yaml
+let bookNameCache: Record<string, string> | null = null;
+
+async function loadBookNames(): Promise<Record<string, string>> {
+  if (bookNameCache) return bookNameCache;
+
+  const fs = await import('fs/promises');
+  const yaml = await import('js-yaml');
+
+  try {
+    const content = await fs.readFile(GLOSSARY_PATH, 'utf8');
+    const data = yaml.load(content) as GlossaryData;
+
+    const names: Record<string, string> = {};
+    const allBooks = [...(data.books.old_testament || []), ...(data.books.new_testament || [])];
+
+    for (const book of allBooks) {
+      names[book.code] = `${book.vietnamese}`;
+    }
+
+    bookNameCache = names;
+    return names;
+  } catch (e) {
+    console.error('Error loading book names from glossary:', e);
+    return {};
+  }
+}
 
 // Load all books
 async function loadBooks(): Promise<Book[]> {
   const fs = await import('fs/promises');
   const path = await import('path');
+  const bookNames = await loadBookNames();
 
   const books: Book[] = [];
 
@@ -58,7 +94,7 @@ async function loadBooks(): Promise<Book[]> {
           } else {
             books.push({
               id: bookId,
-              name: BOOK_NAMES[bookId] || bookId,
+              name: bookNames[bookId] || bookId,
               chapters: [chapterNum],
             });
           }
