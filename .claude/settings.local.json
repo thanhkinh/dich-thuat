@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "Skill(planning-with-files:planning-with-files)",
+      "Bash(ls:*)",
+      "Bash(curl:*)",
+      "Bash(./scripts/lookup-term.sh:*)"
+    ]
+  }
+}
