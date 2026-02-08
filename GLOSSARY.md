@@ -4,7 +4,6 @@
 - LORD (YHWH) -> THIÊN CHÚA
 - Lord (Adonai) -> Chúa
 - God -> Đức Chúa Trời
-- Jesus -> Giê-xu / Đức Giê-xu
 - Christ -> Cơ-đốc
 - Holy Spirit -> Đức Thánh Linh / Thánh Linh
 
@@ -56,6 +55,4 @@ God responding:
 
 ## General Vocabulary
 - mighty -> cường thịnh / hùng mạnh / vĩ đại (not mãnh liệt)
-- Revelation -> Khải Thị Lục (book title), sự mặc khải (in sentences)
-- Thyatira -> Thy-a-ti-rơ
-- Smyrna -> Si-miệc-nơ
+- revelation -> sự mặc khải (see GLOSSARY.books.md for book title)

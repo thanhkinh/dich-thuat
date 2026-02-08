@@ -1,6 +1,12 @@
 # Manage GLOSSARY.md
 
-Interactive skill to add, update, or delete Vietnamese Protestant terminology entries in /GLOSSARY.md.
+Interactive skill to add, update, or delete Vietnamese Protestant terminology entries in glossary files.
+
+## Files
+- /GLOSSARY.md - Theological terms
+- /GLOSSARY.cities.md - Cities & places
+- /GLOSSARY.people.md - Person names
+- /GLOSSARY.books.md - Bible book titles
 
 ## Usage
 
@@ -29,15 +35,18 @@ For additions or updates, select category:
 **Question:** Which category does this term belong to?
 
 **Options:**
-1. Divine Names (LORD, Lord, God, Jesus, etc.)
-2. Theological Terms (salvation, righteousness, grace, etc.)
-3. Eschatology (heaven, hell, Kingdom)
-4. Ecclesiology (gospel, church)
-5. Ministry & People (angel, apostle, etc.)
-6. Christological Titles
-7. Soteriology (salvation-related)
-8. Prayer Context Verbs
-9. General Vocabulary
+1. Divine Names (LORD, Lord, God, Holy Spirit, etc.) - GLOSSARY.md
+2. Theological Terms (salvation, righteousness, grace, etc.) - GLOSSARY.md
+3. Eschatology (heaven, hell, Kingdom) - GLOSSARY.md
+4. Ecclesiology (gospel, church) - GLOSSARY.md
+5. Ministry & People (angel, apostle, etc.) - GLOSSARY.md
+6. Christological Titles - GLOSSARY.md
+7. Soteriology (salvation-related) - GLOSSARY.md
+8. Prayer Context Verbs - GLOSSARY.md
+9. General Vocabulary - GLOSSARY.md
+10. City/Place Names - GLOSSARY.cities.md
+11. Person Names - GLOSSARY.people.md
+12. Bible Book Titles - GLOSSARY.books.md
 
 ### Step 3: Term Entry
 
@@ -73,7 +82,7 @@ Or with notes:
 
 ## Current Categories
 
-Based on existing GLOSSARY.md structure:
+**GLOSSARY.md:**
 - Divine Names
 - Theological Terms
 - Eschatology
@@ -83,6 +92,16 @@ Based on existing GLOSSARY.md structure:
 - Soteriology
 - Prayer Context Verbs
 - General Vocabulary
+
+**GLOSSARY.cities.md:**
+- Cities
+- Places (geographical features)
+
+**GLOSSARY.people.md:**
+- Biblical figures
+
+**GLOSSARY.books.md:**
+- Bible book titles
 
 ## Common KJV Terms (Suggestions)
 
@@ -95,7 +114,7 @@ When user selects "Suggest from common KJV terms", offer:
 
 ## File Safety
 
-- Always read /GLOSSARY.md before modifying
+- Always read the target glossary file before modifying
 - Preserve existing structure and formatting
 - Sort new entries alphabetically within categories
 - Remove duplicates if term already exists

@@ -13,10 +13,13 @@ Critically evaluate translation output for:
 
 ## Review Checklist
 
-### 1. GLOSSARY.md Compliance
-- [ ] All key terms match /GLOSSARY.md mappings
+### 1. GLOSSARY Compliance
+- [ ] All key terms match glossary mappings
 - [ ] Divine names: LORD (Thiên Chúa), Lord (Chúa), God (Đức Chúa Trời)
 - [ ] Theological terms used correctly (cứu rỗi, công chính, ân điển, etc.)
+- [ ] City/place names per GLOSSARY.cities.md
+- [ ] Person names per GLOSSARY.people.md
+- [ ] Book titles per GLOSSARY.books.md
 
 ### 2. Completeness (Complete Equivalence)
 - [ ] ALL KJV information preserved
@@ -41,6 +44,12 @@ Critically evaluate translation output for:
 - [ ] God → Human: đáp lời, cho biết, bày tỏ
 - [ ] NOT used: kêu gọi (for prayer), báo (for God revealing)
 
+### 6. Biblical Proper Names
+- [ ] City/place names per GLOSSARY.cities.md
+- [ ] Person names per GLOSSARY.people.md (including Jesus)
+- [ ] Book titles per GLOSSARY.books.md
+- [ ] Book titles vs sentence forms (e.g., Revelation: Khải Thị Lục vs revelation: sự mặc khải)
+
 ## Input Format
 
 User provides:
@@ -57,7 +66,7 @@ CRITICAL REVIEW: [Verse reference if provided]
 VERDICT: [PASS / NEEDS REVISION / FAIL]
 
 GLOSSARY COMPLIANCE: [PASS/FAIL]
-- [Any deviations from GLOSSARY.md]
+- [Any deviations from glossary files]
 
 COMPLETENESS: [PASS/FAIL]
 - [Any missing or simplified information]

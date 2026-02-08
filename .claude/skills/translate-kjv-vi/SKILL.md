@@ -20,7 +20,12 @@ Translate King James Version Bible text to Vietnamese following NKJV "Complete E
 
 ## Key Term Mapping
 
-CRITICAL: Before translating, read /GLOSSARY.md and apply all term mappings.
+CRITICAL: Before translating, read all glossary files and apply all term mappings:
+- /GLOSSARY.md (theological terms)
+- /GLOSSARY.cities.md (cities, places)
+- /GLOSSARY.people.md (person names)
+- /GLOSSARY.books.md (Bible book titles)
+
 Use these terms consistently for all translations.
 
 ## Translation Guidelines
