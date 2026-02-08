@@ -22,7 +22,7 @@
 
 ## Verse 6
 **KJV:** But this thou hast, that thou hatest the deeds of the Nicolaitanes, which I also hate.
-**VI:** Nhưng ngươi có điều này, là ngươi ghét việc làm của nhóm Ni-cô-lai-tan, mà Ta cũng ghét.
+**VI:** Nhưng ngươi có điều này, là ngươi ghét việc làm của những người thuộc phái Ni-cô-la, mà Ta cũng ghét.
 
 ## Verse 7
 **KJV:** He that hath an ear, let him hear what the Spirit saith unto the churches; To him that overcometh will I give to eat of the tree of life, which is in the midst of the paradise of God.
@@ -38,7 +38,7 @@
 
 ## Verse 10
 **KJV:** Fear none of those things which thou shalt suffer: behold, the devil shall cast some of you into prison, that ye may be tried; and ye shall have tribulation ten days: be thou faithful unto death, and I will give thee a crown of life.
-**VI:** Đừng sợ những điều ngươi sẽ chịu: kìa, quỷ dữ sẽ ném một số các ngươi vào tù, để các ngươi được thử thách; và các ngươi sẽ gặp phải sự gian khổ mười ngày: hãy hãy trung tín đến chết, và Ta sẽ ban cho ngươi mão sự sống.
+**VI:** Đừng sợ những điều ngươi sẽ chịu: kìa, quỷ dữ sẽ ném một số các ngươi vào tù, để các ngươi được thử thách; và các ngươi sẽ gặp phải sự gian khổ mười ngày: hãy trung tín đến chết, và Ta sẽ ban cho ngươi mão sự sống.
 
 ## Verse 11
 **KJV:** He that hath an ear, let him hear what the Spirit saith unto the churches; He that overcometh shall not be hurt of the second death.
@@ -54,11 +54,11 @@
 
 ## Verse 14
 **KJV:** But I have a few things against thee, because thou hast there them that hold the doctrine of Balaam, who taught Balac to cast a stumblingblock before the children of Israel, to eat things sacrificed unto idols, and to commit fornication.
-**VI:** Nhưng Ta có một vài điều chống lại ngươi, vì ở đó ngươi có những kẻ giữ đạo của Ba-la-am, người đã dạy Ba-lác đặt cớ vấp phạm trước con cái Israel, để ăn đồ được tế cho thần tượng, và gian dâm.
+**VI:** Nhưng Ta có một vài điều chống lại ngươi, vì ở đó ngươi có những kẻ giữ lẽ-đạo của Ba-la-am, người đã dạy Ba-lác đặt cớ vấp phạm trước con cái Israel, để ăn đồ được tế cho thần tượng, và gian dâm.
 
 ## Verse 15
 **KJV:** So hast thou also them that hold the doctrine of the Nicolaitanes, which thing I hate.
-**VI:** Vậy ngươi cũng có những kẻ giữ đạo của nhóm Ni-cô-lai-tan, điều mà Ta ghét.
+**VI:** Vậy ngươi cũng có những kẻ giữ lẽ-đạo của những người thuộc phái Ni-cô-la, điều mà Ta ghét.
 
 ## Verse 16
 **KJV:** Repent; or else I will come unto thee quickly, and will fight against them with the sword of my mouth.
@@ -94,7 +94,7 @@
 
 ## Verse 24
 **KJV:** But unto you I say, and unto the rest in Thyatira, as many as have not this doctrine, and which have not known the depths of Satan, as they speak; I will put upon you none other burden.
-**VI:** Nhưng đến các ngươi Ta phán, và đến những người còn lại ở Thyaty-re, bao nhiêu người không có đạo này, và không biết sự sâu thẳm của Sa-tan, như họ nói; Ta sẽ không đặt gánh nặng nào khác lên các ngươi.
+**VI:** Nhưng với các ngươi Ta phán, và với những người còn lại ở Thy-a-ti-rơ, cũng như bao nhiêu người không có lẽ-đạo này, và không biết sự sâu thẳm của Sa-tan, như chúng nói; Ta sẽ không đặt gánh nặng nào khác lên các ngươi.
 
 ## Verse 25
 **KJV:** But that which ye have already hold fast till I come.

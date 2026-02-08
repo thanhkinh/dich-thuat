@@ -19,9 +19,13 @@ Critically evaluate translation output for:
 ## Review Checklist
 
 ### 1. GLOSSARY Compliance
-- [ ] All key terms match glossary mappings
+- [ ] All key terms match GLOSSARY.yaml entries
+- [ ] Decision trees followed for context-dependent terms
+- [ ] Register levels appropriate to text type
 - [ ] Divine names: LORD (Thiên Chúa), Lord (Chúa), God (Đức Chúa Trời)
 - [ ] Theological terms used correctly (cứu rỗi, công chính, ân điển, etc.)
+- [ ] No terms from "avoid" lists used
+- [ ] Alternatives match "use_when" conditions
 - [ ] City/place names per GLOSSARY.cities.md
 - [ ] Person names per GLOSSARY.people.md
 - [ ] Book titles per GLOSSARY.books.md
@@ -76,7 +80,10 @@ CRITICAL REVIEW: [Verse reference if provided]
 VERDICT: [PASS / NEEDS REVISION / FAIL]
 
 GLOSSARY COMPLIANCE: [PASS/FAIL]
-- [Any deviations from glossary files]
+- [Any deviations from GLOSSARY.yaml entries]
+- [Decision tree violations - context mismatch]
+- [Register level issues]
+- [Terms from avoid lists detected]
 
 COMPLETENESS: [PASS/FAIL]
 - [Any missing or simplified information]
@@ -89,6 +96,10 @@ PRONOUNS/ADDRESS: [PASS/FAIL]
 
 UNDEFINED TERMS: [LIST or NONE]
 - [Vietnamese term] - potential for standardization (suggest: check if ...)
+
+CONTEXT ISSUES:
+- [Wrong alternative chosen for context]
+- [use_when condition not met]
 
 SPECIFIC ISSUES:
 1. [Issue] - [Suggested fix if applicable]

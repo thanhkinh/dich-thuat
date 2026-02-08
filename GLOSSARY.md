@@ -20,6 +20,7 @@
 - sin -> tội / sự gian ác
 - only begotten -> độc sinh
 - first begotten -> sinh đầu nhất
+- doctrine -> lẽ-đạo / tín-lý
 
 ## Eschatology
 - heaven -> nước trời / thiên đàng
@@ -35,6 +36,7 @@
 - apostle -> sứ đồ
 - disciple -> môn đồ
 - saint -> thánh đồ / thánh nhân
+- Nicolaitanes -> Những người thuộc phái Ni-cô-la
 
 ## Christological Titles
 - the Son of Man -> Đấng Nhân Tử
@@ -55,5 +57,6 @@ God responding:
 
 ## General Vocabulary
 - mighty -> cường thịnh / hùng mạnh / vĩ đại (not mãnh liệt)
+- prision -> tù, ngục, tù ngục
 - revelation -> sự mặc khải (see GLOSSARY.books.md for book title)
 - unless -> trừ khi, cho đến khi

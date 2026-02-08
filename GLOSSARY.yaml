@@ -1,0 +1,470 @@
+---
+metadata:
+  version: "1.0"
+  tradition: "Vietnamese Protestant"
+  source_base: "1925 Bible, Protestant theological manuals"
+  encoding: "UTF-8"
+  last_updated: "2025-02-08"
+  description: "Structured glossary for KJV to Vietnamese Bible translation following Complete Equivalence principle"
+
+categories:
+  divine_names: "Divine Names and Titles"
+  theological: "Theological Terms"
+  eschatology: "Eschatology (Last Things)"
+  ecclesiology: "Ecclesiology (Church)"
+  ministry: "Ministry & People"
+  christological: "Christological Titles"
+  soteriology: "Soteriology (Salvation)"
+  prayer_verbs: "Prayer Context Verbs"
+  general: "General Vocabulary"
+
+rules:
+  register_hierarchy:
+    - level: "sacred"
+      description: "Used for divine names, direct address to God"
+    - level: "elevated"
+      description: "Theological concepts, sacred narratives"
+    - level: "formal"
+      description: "Standard biblical prose"
+    - level: "neutral"
+      description: "Common narrative, descriptions"
+    - level: "classical"
+      description: "Archaic terms, traditional Protestant phrasing"
+
+  selection_principles:
+    - "Preserve all theological information"
+    - "Maintain Hebrew idioms and imagery"
+    - "Use dignified literary Vietnamese (trang trọng)"
+    - "Context determines translation choice"
+    - "Register matches text type (prayer vs narrative)"
+
+terms:
+  # === DIVINE NAMES ===
+  - term: "LORD"
+    category: "divine_names"
+    translations:
+      - vietnamese: "THIÊN CHÚA"
+        register: "sacred"
+        context: "YHWH tetragrammaton, all caps in KJV"
+        primary: true
+    notes: "Never translate as Chúa alone. THIÊN CHÚA preserves covenant name."
+
+  - term: "Lord"
+    category: "divine_names"
+    translations:
+      - vietnamese: "Chúa"
+        register: "elevated"
+        context: "Adonai, generic title for divinity"
+        primary: true
+    avoid:
+      - term: "Thiên Chúa"
+        reason: "Reserved for YHWH (LORD all caps)"
+
+  - term: "God"
+    category: "divine_names"
+    translations:
+      - vietnamese: "Đức Chúa Trời"
+        register: "elevated"
+        context: "General reference, default translation"
+        primary: true
+    alternatives:
+      - vietnamese: "Thiên Chúa"
+        use_when: "Emphasizing sovereignty, covenant relationship"
+      - vietnamese: "Chúa"
+        use_when: "Direct address, vocative"
+
+  - term: "Christ"
+    category: "divine_names"
+    translations:
+      - vietnamese: "Cơ-đốc"
+        register: "elevated"
+        primary: true
+    notes: "Traditional Protestant term. Avoid modern variants."
+
+  - term: "Holy Spirit"
+    category: "divine_names"
+    translations:
+      - vietnamese: "Đức Thánh Linh"
+        register: "sacred"
+        primary: true
+      - vietnamese: "Thánh Linh"
+        register: "elevated"
+        use_when: "Subsequent references in same context"
+    decision_tree:
+      - condition: "First mention in formal passage"
+        use: "Đức Thánh Linh"
+      - condition: "Subsequent reference"
+        use: "Thánh Linh"
+
+  # === THEOLOGICAL TERMS ===
+  - term: "salvation"
+    category: "theological"
+    translations:
+      - vietnamese: "sự cứu rỗi"
+        register: "elevated"
+        primary: true
+    avoid:
+      - term: "sự cứu độ"
+        reason: "Catholic term, not Protestant tradition"
+      - term: "sự cứu"
+        reason: "Too simple, loses theological weight"
+
+  - term: "righteousness"
+    category: "theological"
+    translations:
+      - vietnamese: "sự công chính"
+        register: "elevated"
+        primary: true
+    avoid:
+      - term: "sự công bình"
+        reason: "Less precise theologically"
+
+  - term: "grace"
+    category: "theological"
+    translations:
+      - vietnamese: "ân điển"
+        register: "elevated"
+        primary: true
+    avoid:
+      - term: "ân huệ"
+        reason: "Less common in Protestant tradition"
+
+  - term: "mercy"
+    category: "theological"
+    translations:
+      - vietnamese: "sự thương xót"
+        register: "elevated"
+        primary: true
+      - vietnamese: "sự thương hại"
+        register: "classical"
+        use_when: "Archaic passages, traditional contexts"
+
+  - term: "glory"
+    category: "theological"
+    translations:
+      - vietnamese: "sự vinh quang"
+        register: "elevated"
+        primary: true
+
+  - term: "peace"
+    category: "theological"
+    translations:
+      - vietnamese: "sự bình an"
+        register: "elevated"
+        primary: true
+
+  - term: "faith"
+    category: "theological"
+    translations:
+      - vietnamese: "đức tin"
+        register: "elevated"
+        primary: true
+    notes: "Đức tin = faithfulness/trust, not just intellectual belief"
+
+  - term: "hope"
+    category: "theological"
+    translations:
+      - vietnamese: "sự trông cậy"
+        register: "elevated"
+        primary: true
+    avoid:
+      - term: "sự hy vọng"
+        reason: "Too generic, loses theological sense of active trust"
+
+  - term: "love"
+    category: "theological"
+    translations:
+      - vietnamese: "sự yêu thương"
+        register: "formal"
+        use_when: "General contexts"
+      - vietnamese: "ân ái"
+        register: "elevated"
+        use_when: "Theological contexts, divine love"
+        primary: true
+    decision_tree:
+      - condition: "God's love (agape)"
+        use: "ân ái"
+      - condition: "General Christian love"
+        use: "sự yêu thương"
+
+  - term: "sin"
+    category: "theological"
+    translations:
+      - vietnamese: "tội"
+        register: "formal"
+        primary: true
+      - vietnamese: "sự gian ác"
+        register: "elevated"
+        use_when: "Emphasizing wickedness, iniquity"
+
+  - term: "only begotten"
+    category: "theological"
+    translations:
+      - vietnamese: "độc sinh"
+        register: "elevated"
+        primary: true
+    notes: "Refers to Christ's unique relationship to Father"
+
+  - term: "first begotten"
+    category: "theological"
+    translations:
+      - vietnamese: "sinh đầu nhất"
+        register: "elevated"
+        primary: true
+
+  - term: "doctrine"
+    category: "theological"
+    translations:
+      - vietnamese: "lẽ-đạo"
+        register: "classical"
+        primary: true
+      - vietnamese: "tín-lý"
+        register: "formal"
+        use_when: "Systematic theology contexts"
+
+  # === ESCHATOLOGY ===
+  - term: "heaven"
+    category: "eschatology"
+    translations:
+      - vietnamese: "nước trời"
+        register: "elevated"
+        use_when: "Kingdom context, 'of heaven'"
+        primary: true
+      - vietnamese: "thiên đàng"
+        register: "elevated"
+        use_when: "Place, destination"
+
+  - term: "hell"
+    category: "eschatology"
+    translations:
+      - vietnamese: "hỏa ngục"
+        register: "elevated"
+        primary: true
+      - vietnamese: "địa ngục"
+        register: "formal"
+        use_when: "More neutral contexts"
+
+  - term: "Kingdom of God"
+    category: "eschatology"
+    translations:
+      - vietnamese: "Vương Quốc của Thiên Chúa"
+        register: "elevated"
+        primary: true
+
+  # === ECCLESIOLOGY ===
+  - term: "gospel"
+    category: "ecclesiology"
+    translations:
+      - vietnamese: "Phúc Âm"
+        register: "elevated"
+        primary: true
+
+  - term: "church"
+    category: "ecclesiology"
+    translations:
+      - vietnamese: "Hội Thánh"
+        register: "elevated"
+        primary: true
+    avoid:
+      - term: "nhà thờ"
+        reason: "Means church building, not the people"
+      - term: "giáo hội"
+        reason: "More organizational/institutional"
+
+  # === MINISTRY & PEOPLE ===
+  - term: "angel"
+    category: "ministry"
+    translations:
+      - vietnamese: "thiên sứ"
+        register: "elevated"
+        primary: true
+
+  - term: "apostle"
+    category: "ministry"
+    translations:
+      - vietnamese: "sứ đồ"
+        register: "elevated"
+        primary: true
+
+  - term: "disciple"
+    category: "ministry"
+    translations:
+      - vietnamese: "môn đồ"
+        register: "elevated"
+        primary: true
+
+  - term: "saint"
+    category: "ministry"
+    translations:
+      - vietnamese: "thánh đồ"
+        register: "elevated"
+        use_when: "Collective, believers"
+      - vietnamese: "thánh nhân"
+        register: "elevated"
+        use_when: "Individual saints"
+    decision_tree:
+      - condition: "Plural, collective (saints)"
+        use: "thánh đồ"
+      - condition: "Individual reference"
+        use: "thánh nhân"
+
+  - term: "Nicolaitanes"
+    category: "ministry"
+    translations:
+      - vietnamese: "Những người thuộc phái Ni-cô-la"
+        register: "formal"
+        primary: true
+
+  # === CHRISTOLOGICAL TITLES ===
+  - term: "the Son of Man"
+    category: "christological"
+    translations:
+      - vietnamese: "Đấng Nhân Tử"
+        register: "elevated"
+        primary: true
+    notes: "Christ's self-designation, Messianic title"
+
+  # === SOTERIOLOGY ===
+  - term: "repentance"
+    category: "soteriology"
+    translations:
+      - vietnamese: "sự ăn năn"
+        register: "formal"
+        primary: true
+      - vietnamese: "sự hối cải"
+        register: "elevated"
+        use_when: "Formal theological contexts"
+
+  - term: "baptism"
+    category: "soteriology"
+    translations:
+      - vietnamese: "phép báp-têm"
+        register: "formal"
+        primary: true
+
+  # === PRAYER CONTEXT VERBS ===
+  - term: "call"
+    category: "prayer_verbs"
+    translations:
+      - vietnamese: "kêu cầu"
+        register: "elevated"
+        context: "Human to God"
+        primary: true
+      - vietnamese: "cầu xin"
+        register: "formal"
+        use_when: "Making request"
+      - vietnamese: "kêu gọi"
+        context: "NOT prayer"
+        use_when: "General context, not addressing God"
+    decision_tree:
+      - condition: "Human speaking TO God"
+        use: "kêu cầu"
+      - condition: "Non-prayer context"
+        use: "kêu gọi"
+
+  - term: "cry"
+    category: "prayer_verbs"
+    translations:
+      - vietnamese: "kêu khấn"
+        register: "elevated"
+        context: "Human to God, urgent"
+      - vietnamese: "khóc van"
+        register: "elevated"
+        context: "Human to God, desperate"
+    decision_tree:
+      - condition: "Urgent prayer"
+        use: "kêu khấn"
+      - condition: "Desperate, weeping prayer"
+        use: "khóc van"
+
+  - term: "pray"
+    category: "prayer_verbs"
+    translations:
+      - vietnamese: "cầu nguyện"
+        register: "elevated"
+        context: "Human to God, formal"
+        primary: true
+      - vietnamese: "cầu xin"
+        register: "formal"
+        use_when: "Making request"
+
+  - term: "answer"
+    category: "prayer_verbs"
+    translations:
+      - vietnamese: "đáp lời"
+        register: "elevated"
+        context: "God responding to prayer"
+        primary: true
+    notes: "Used when God responds to human petition"
+
+  - term: "show"
+    category: "prayer_verbs"
+    variants: ["show", "shew"]
+    translations:
+      - vietnamese: "cho biết"
+        register: "formal"
+        use_when: "Revealing information"
+        primary: true
+      - vietnamese: "bày tỏ"
+        register: "elevated"
+        use_when: "Divine revelation, making known"
+      - vietnamese: "chỉ cho"
+        register: "formal"
+        use_when: "Pointing out, directing"
+    avoid:
+      - term: "báo"
+        reason: "Too casual for divine communication"
+    decision_tree:
+      - condition: "General revealing"
+        use: "cho biết"
+      - condition: "Divine revelation, making manifest"
+        use: "bày tỏ"
+      - condition: "Pointing, directing"
+        use: "chỉ cho"
+
+  # === GENERAL VOCABULARY ===
+  - term: "mighty"
+    category: "general"
+    translations:
+      - vietnamese: "cường thịnh"
+        register: "classical"
+        use_when: "Traditional contexts"
+      - vietnamese: "hùng mạnh"
+        register: "elevated"
+        use_when: "Power, might"
+      - vietnamese: "vĩ đại"
+        register: "formal"
+        use_when: "Greatness, majesty"
+    avoid:
+      - term: "mãnh liệt"
+        reason: "Emotional intensity, not power/strength"
+
+  - term: "prison"
+    category: "general"
+    translations:
+      - vietnamese: "tù"
+        register: "formal"
+      - vietnamese: "ngục"
+        register: "formal"
+      - vietnamese: "tù ngục"
+        register: "formal"
+    notes: "All three acceptable, choose based on rhythm"
+
+  - term: "revelation"
+    category: "general"
+    translations:
+      - vietnamese: "sự mặc khải"
+        register: "elevated"
+        context: "General theological concept"
+        primary: true
+    notes: "Book title is 'Khải Thị Lục' - see GLOSSARY.books.yaml"
+
+  - term: "unless"
+    category: "general"
+    translations:
+      - vietnamese: "trừ khi"
+        register: "formal"
+        primary: true
+      - vietnamese: "cho đến khi"
+        register: "formal"
+        use_when: "Temporal sense common in KJV"

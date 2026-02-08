@@ -1,12 +1,9 @@
-# Manage GLOSSARY.md
+# Manage GLOSSARY.yaml
 
-Interactive skill to add, update, or delete Vietnamese Protestant terminology entries in glossary files.
+Interactive skill to add, update, or delete Vietnamese Protestant terminology entries in GLOSSARY.yaml.
 
-## Files
-- /GLOSSARY.md - Theological terms
-- /GLOSSARY.cities.md - Cities & places
-- /GLOSSARY.people.md - Person names
-- /GLOSSARY.books.md - Bible book titles
+## File
+- /GLOSSARY.yaml - Structured YAML glossary with metadata, categories, decision trees, register levels, usage rules
 
 ## Usage
 
@@ -14,11 +11,54 @@ Invoke with: `/glossary [optional: term to edit]`
 
 Or without arguments for general glossary management.
 
+## YAML Structure Reference
+
+```yaml
+terms:
+  - term: "english_term"
+    category: "category_name"
+    variants: ["alt1", "alt2"]  # optional
+    translations:
+      - vietnamese: "Vietnamese translation"
+        register: "sacred|elevated|formal|neutral|classical"
+        context: "Usage context"
+        use_when: "Specific condition"
+        primary: true  # marks default translation
+    alternatives:
+      - vietnamese: "Alternative translation"
+        use_when: "Condition for using this alternative"
+    decision_tree:
+      - condition: "Context condition"
+        use: "Translation to use"
+    avoid:
+      - term: "term to avoid"
+        reason: "Why to avoid it"
+    notes: "Additional information"
+```
+
+## Categories
+
+1. **divine_names** - Divine Names and Titles
+2. **theological** - Theological Terms
+3. **eschatology** - Eschatology (Last Things)
+4. **ecclesiology** - Ecclesiology (Church)
+5. **ministry** - Ministry & People
+6. **christological** - Christological Titles
+7. **soteriology** - Soteriology (Salvation)
+8. **prayer_verbs** - Prayer Context Verbs
+9. **general** - General Vocabulary
+
+## Register Levels
+
+- **sacred**: Divine names, direct address to God
+- **elevated**: Theological concepts, sacred narratives
+- **formal**: Standard biblical prose
+- **neutral**: Common narrative, descriptions
+- **classical**: Archaic terms, traditional Protestant phrasing
+
 ## Workflow
 
 ### Step 1: Action Selection
-
-First, ask user what action to perform:
 
 **Question:** What would you like to do with the glossary?
 
@@ -30,91 +70,39 @@ First, ask user what action to perform:
 
 ### Step 2: Category Selection (for Add/Update)
 
-For additions or updates, select category:
-
 **Question:** Which category does this term belong to?
 
 **Options:**
-1. Divine Names (LORD, Lord, God, Holy Spirit, etc.) - GLOSSARY.md
-2. Theological Terms (salvation, righteousness, grace, etc.) - GLOSSARY.md
-3. Eschatology (heaven, hell, Kingdom) - GLOSSARY.md
-4. Ecclesiology (gospel, church) - GLOSSARY.md
-5. Ministry & People (angel, apostle, etc.) - GLOSSARY.md
-6. Christological Titles - GLOSSARY.md
-7. Soteriology (salvation-related) - GLOSSARY.md
-8. Prayer Context Verbs - GLOSSARY.md
-9. General Vocabulary - GLOSSARY.md
-10. City/Place Names - GLOSSARY.cities.md
-11. Person Names - GLOSSARY.people.md
-12. Bible Book Titles - GLOSSARY.books.md
+1. Divine Names (LORD, Lord, God, Holy Spirit, etc.)
+2. Theological Terms (salvation, righteousness, grace, etc.)
+3. Eschatology (heaven, hell, Kingdom)
+4. Ecclesiology (gospel, church)
+5. Ministry & People (angel, apostle, etc.)
+6. Christological Titles
+7. Soteriology (salvation-related)
+8. Prayer Context Verbs
+9. General Vocabulary
 
 ### Step 3: Term Entry
 
-**Question:** Provide the term details
-
-**Options:**
-1. Suggest from common KJV terms (list top 20 common terms)
-2. Enter custom term (Other - user provides)
-
-For custom term entry, collect:
+Collect term details:
 - **English term**: (required)
-- **Vietnamese translation**: (required)
-- **Notes/Context**: (optional - e.g., "use X in prayer context only")
+- **Variants**: (optional - comma-separated alternate spellings)
+- **Vietnamese translation(s)**: (required - can add multiple)
+- **Register level**: (required - sacred/elevated/formal/neutral/classical)
+- **Primary translation**: (which one is default?)
+- **Decision tree**: (optional - context-dependent choices)
+- **Avoid list**: (optional - terms NOT to use with reasons)
+- **Notes**: (optional)
 
 ### Step 4: Confirmation
 
-**Question:** Confirm the glossary entry
-
-Display proposed entry format and ask for confirmation before writing.
-
-## Output Format
-
-Entries are added to /GLOSSARY.md in this format:
-
-```markdown
-- [English] -> [Vietnamese]
-```
-
-Or with notes:
-```markdown
-- [English] -> [Vietnamese] ([note])
-```
-
-## Current Categories
-
-**GLOSSARY.md:**
-- Divine Names
-- Theological Terms
-- Eschatology
-- Ecclesiology
-- Ministry & People
-- Christological Titles
-- Soteriology
-- Prayer Context Verbs
-- General Vocabulary
-
-**GLOSSARY.cities.md:**
-- Cities
-- Places (geographical features)
-
-**GLOSSARY.people.md:**
-- Biblical figures
-
-**GLOSSARY.books.md:**
-- Bible book titles
-
-## Common KJV Terms (Suggestions)
-
-When user selects "Suggest from common KJV terms", offer:
-
-**Divine:** Father, Spirit, Almighty, Everlasting
-**Theological:** justification, sanctification, redemption, reconciliation, prophecy, covenant, testament, resurrection, ascension, tribulation, glory, dominion, power, authority
-**Salvation:** redeemed, justified, sanctified, saved, born again, regeneration
-**Verbs:** bless, praise, worship, glorify, magnify, exalt
+Display proposed YAML entry and ask for confirmation before writing.
 
 ## File Safety
 
-- Always read the target glossary file before modifying
-- Preserve existing structure and formatting
+- Always read GLOSSARY.yaml before modifying
+- Preserve YAML structure and formatting
 - Sort new entries alphabetically within categories
-- Remove duplicates if term already exists
+- Update metadata.last_updated timestamp
+- Validate YAML syntax before writing

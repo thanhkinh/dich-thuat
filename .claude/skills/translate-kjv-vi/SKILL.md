@@ -20,25 +20,39 @@ Translate King James Version Bible text to Vietnamese following NKJV "Complete E
 
 ## Key Term Mapping
 
-CRITICAL: Before translating, read all glossary files and apply all term mappings:
-- /GLOSSARY.md (theological terms)
+CRITICAL: Before translating, read GLOSSARY.yaml and apply all term mappings following these principles:
+
+1. **Load YAML structure** - Parse metadata, categories, rules, and terms
+2. **Identify term category** - Match each source term to its category
+3. **Check decision trees** - Use decision_tree field for context-dependent selection
+4. **Apply register hierarchy** - Match register level to text type (prayer vs narrative)
+5. **Follow usage rules** - Respect use_when conditions for alternatives
+6. **Check avoid lists** - Never use terms in avoid sections
+
+Glossary files:
+- /GLOSSARY.yaml (primary - all terms with context)
 - /GLOSSARY.cities.md (cities, places)
 - /GLOSSARY.people.md (person names)
 - /GLOSSARY.books.md (Bible book titles)
-
-Use these terms consistently for all translations.
 
 ## Translation Guidelines
 
 ### Prayer Context Verbs
 When humans speak TO God:
 - Call unto me -> Kêu cầu Ta / Cầu xin Ta (not kêu gọi)
-- Cry unto -> Kêu cầu / Khóc van / Kêu khấn
+- Cry unto -> Kêu khấn / Khóc van (per decision_tree in GLOSSARY.yaml)
 - Pray -> Cầu nguyện / Cầu xin
 
 When God speaks/shows:
 - Answer (God responding) -> Đáp lời
-- Show/Shew -> Cho biết / Bày tỏ / Chỉ cho
+- Show/Shew -> Cho biết / Bày tỏ / Chỉ cho (per decision_tree in GLOSSARY.yaml, never báo)
+
+**Decision Tree Process:**
+1. Identify context (prayer vs narrative, human→God vs God→human)
+2. Check GLOSSARY.yaml decision_tree for term
+3. Evaluate conditions in order
+4. Select translation matching first true condition
+5. Verify register matches text type
 
 ### Pronouns
 - Third person (God/Jesus): Ngài
