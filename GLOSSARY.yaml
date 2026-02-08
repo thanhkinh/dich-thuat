@@ -4,7 +4,7 @@ metadata:
   tradition: "Vietnamese Protestant"
   source_base: "1925 Bible, Protestant theological manuals"
   encoding: "UTF-8"
-  last_updated: "2025-02-09"
+  last_updated: "2026-02-08T09:45:31Z"
   description: "Structured glossary for KJV to Vietnamese Bible translation following Complete Equivalence principle"
 
 categories:
@@ -95,6 +95,14 @@ terms:
         use: "Đức Thánh Linh"
       - condition: "Subsequent reference"
         use: "Thánh Linh"
+
+  - term: "the Spirit of God"
+    category: "divine_names"
+    translations:
+      - vietnamese: "Thần Linh của Thiên Chúa"
+        register: "sacred"
+        primary: true
+    notes: "OT expression for Holy Spirit; emphasizes divine origin"
 
   # === THEOLOGICAL TERMS ===
   - term: "salvation"
@@ -222,6 +230,27 @@ terms:
         register: "formal"
         use_when: "Systematic theology contexts"
 
+  - term: "prove"
+    category: "theological"
+    translations:
+      - vietnamese: "thử"
+        register: "elevated"
+        context: "God testing people's faith/character"
+        primary: true
+    avoid:
+      - term: "thử thách"
+        reason: "Modern secular usage, not classical biblical"
+    notes: "Divine testing to reveal character, not tempting"
+
+  - term: "visiting"
+    category: "theological"
+    translations:
+      - vietnamese: "thăm"
+        register: "elevated"
+        context: "God allowing iniquity consequences to continue to descendants"
+        primary: true
+    notes: "Not 'trừng' (punish) - God's permissive will, allowing consequences to follow"
+
   # === ESCHATOLOGY ===
   - term: "heaven"
     category: "eschatology"
@@ -348,7 +377,50 @@ terms:
         register: "formal"
         primary: true
 
+  - term: "stranger"
+    category: "ministry"
+    translations:
+      - vietnamese: "người lạ"
+        register: "formal"
+        context: "Foreigner living among Israelites"
+        primary: true
+      - vietnamese: "người ngoại"
+        register: "formal"
+        use_when: "Contrast with Israelites"
+    notes: "Non-Israelite resident in Israel"
+
   # === CHRISTOLOGICAL TITLES ===
+  - term: "Jesus Christ"
+    category: "christological"
+    variants: ["Christ Jesus", "Christ"]
+    translations:
+      - vietnamese: "Đấng Cơ-đốc Giê-xu"
+        register: "sacred"
+        context: "Full title, emphasizing Messianic office"
+        primary: true
+      - vietnamese: "Cơ-đốc Giê-xu"
+        register: "elevated"
+        use_when: "Standard reference"
+      - vietnamese: "Giê-xu Cơ-đốc"
+        register: "elevated"
+        use_when: "Name-first order in some contexts"
+      - vietnamese: "Đức Giê-xu"
+        register: "sacred"
+        use_when: "First mention or formal address"
+      - vietnamese: "Giê-xu"
+        register: "elevated"
+        use_when: "Subsequent references in same context"
+    decision_tree:
+      - condition: "First mention in formal passage"
+        use: "Đức Giê-xu"
+      - condition: "Full Messianic title"
+        use: "Đấng Cơ-đốc Giê-xu"
+      - condition: "Standard reference"
+        use: "Cơ-đốc Giê-xu"
+      - condition: "Subsequent reference"
+        use: "Giê-xu"
+    notes: "'Đấng' adds dignity for Christ. See GLOSSARY.people.yaml for 'Jesus' entry."
+
   - term: "the Son of Man"
     category: "christological"
     translations:
@@ -517,6 +589,18 @@ terms:
         primary: true
     notes: "Book title is 'Khải Thị Lục' - see GLOSSARY.books.yaml"
 
+  - term: "record"
+    category: "general"
+    translations:
+      - vietnamese: "đặt"
+        register: "formal"
+        context: "God placing His name somewhere (indicating presence)"
+        primary: true
+      - vietnamese: "ghi nhớ"
+        register: "formal"
+        use_when: "Remember, call to mind"
+    notes: "Biblical 'record name' = establish presence, not modern 'record audio/video'"
+
   - term: "unless"
     category: "general"
     translations:
@@ -526,3 +610,14 @@ terms:
       - vietnamese: "cho đến khi"
         register: "formal"
         use_when: "Temporal sense common in KJV"
+
+  - term: "hewn"
+    category: "general"
+    translations:
+      - vietnamese: "đã khéo"
+        register: "classical"
+        primary: true
+      - vietnamese: "đã tiện"
+        register: "formal"
+        use_when: "Stone cutting context"
+    notes: "Cut/finished stone with tools"

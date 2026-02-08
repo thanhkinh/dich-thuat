@@ -8,7 +8,9 @@
       "Bash(./scripts/lookup-term.sh:*)",
       "Bash(printf:*)",
       "Bash(bash scripts/split-kjv.sh:*)",
-      "Bash(git ls-tree:*)"
+      "Bash(git ls-tree:*)",
+      "Bash(gh pr create:*)",
+      "Skill(planning-with-files)"
     ]
   }
 }

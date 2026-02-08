@@ -1,14 +1,339 @@
 ---
 metadata:
   version: "1.0"
-  tradition: "Vietnamese Protestant"
-  description: "Bible book titles for KJV to Vietnamese translation"
+  tradition: "Vietnamese Protestant 1925"
+  description: "Bible book titles for KJV to Vietnamese translation (1925 orthography)"
+  last_updated: "2025-02-08T00:00:00Z"
 
 books:
+  old_testament:
+    - english: "Genesis"
+      vietnamese: "Sáng Thế"
+      code: "OT-01"
+      chapters: 50
+
+    - english: "Exodus"
+      vietnamese: "Xuất Hành"
+      code: "OT-02"
+      chapters: 40
+
+    - english: "Leviticus"
+      vietnamese: "Lê-vi ký"
+      code: "OT-03"
+      chapters: 27
+
+    - english: "Numbers"
+      vietnamese: "Dân số ký"
+      code: "OT-04"
+      chapters: 36
+
+    - english: "Deuteronomy"
+      vietnamese: "Phục truyền Luật lệ ký"
+      code: "OT-05"
+      chapters: 34
+
+    - english: "Joshua"
+      vietnamese: "Giô-suê"
+      code: "OT-06"
+      chapters: 24
+
+    - english: "Judges"
+      vietnamese: "Các quan xét"
+      code: "OT-07"
+      chapters: 21
+
+    - english: "Ruth"
+      vietnamese: "Ru-tơ"
+      code: "OT-08"
+      chapters: 4
+
+    - english: "1 Samuel"
+      vietnamese: "I Sa-mu-ên"
+      code: "OT-09"
+      chapters: 31
+
+    - english: "2 Samuel"
+      vietnamese: "II Sa-mu-ên"
+      code: "OT-10"
+      chapters: 24
+
+    - english: "1 Kings"
+      vietnamese: "I Các vua"
+      code: "OT-11"
+      chapters: 22
+
+    - english: "2 Kings"
+      vietnamese: "II Các vua"
+      code: "OT-12"
+      chapters: 25
+
+    - english: "1 Chronicles"
+      vietnamese: "I Sử ký"
+      code: "OT-13"
+      chapters: 29
+
+    - english: "2 Chronicles"
+      vietnamese: "II Sử ký"
+      code: "OT-14"
+      chapters: 36
+
+    - english: "Ezra"
+      vietnamese: "Ê-xơ-ra"
+      code: "OT-15"
+      chapters: 10
+
+    - english: "Nehemiah"
+      vietnamese: "Nê-hê-mi"
+      code: "OT-16"
+      chapters: 13
+
+    - english: "Esther"
+      vietnamese: "Ê-xơ-tê"
+      code: "OT-17"
+      chapters: 10
+
+    - english: "Job"
+      vietnamese: "Gióp"
+      code: "OT-18"
+      chapters: 42
+
+    - english: "Psalms"
+      vietnamese: "Thi thiên"
+      code: "OT-19"
+      chapters: 150
+
+    - english: "Proverbs"
+      vietnamese: "Châm ngôn"
+      code: "OT-20"
+      chapters: 31
+
+    - english: "Ecclesiastes"
+      vietnamese: "Truyền đạo"
+      code: "OT-21"
+      chapters: 12
+
+    - english: "Song of Solomon"
+      vietnamese: "Nhã ca"
+      code: "OT-22"
+      chapters: 8
+
+    - english: "Isaiah"
+      vietnamese: "Ê-sai"
+      code: "OT-23"
+      chapters: 66
+
+    - english: "Jeremiah"
+      vietnamese: "Giê-rê-mi"
+      code: "OT-24"
+      chapters: 52
+
+    - english: "Lamentations"
+      vietnamese: "Ca thương"
+      code: "OT-25"
+      chapters: 5
+
+    - english: "Ezekiel"
+      vietnamese: "Ê-xê-chi-ên"
+      code: "OT-26"
+      chapters: 48
+
+    - english: "Daniel"
+      vietnamese: "Đa-ni-ên"
+      code: "OT-27"
+      chapters: 12
+
+    - english: "Hosea"
+      vietnamese: "Ô-sê"
+      code: "OT-28"
+      chapters: 14
+
+    - english: "Joel"
+      vietnamese: "Giô-ên"
+      code: "OT-29"
+      chapters: 3
+
+    - english: "Amos"
+      vietnamese: "A-mốt"
+      code: "OT-30"
+      chapters: 9
+
+    - english: "Obadiah"
+      vietnamese: "Áp-đia"
+      code: "OT-31"
+      chapters: 1
+
+    - english: "Jonah"
+      vietnamese: "Giô-na"
+      code: "OT-32"
+      chapters: 4
+
+    - english: "Micah"
+      vietnamese: "Mi-chê"
+      code: "OT-33"
+      chapters: 7
+
+    - english: "Nahum"
+      vietnamese: "Na-hum"
+      code: "OT-34"
+      chapters: 3
+
+    - english: "Habakkuk"
+      vietnamese: "Ha-ba-cúc"
+      code: "OT-35"
+      chapters: 3
+
+    - english: "Zephaniah"
+      vietnamese: "Sô-phô-ni"
+      code: "OT-36"
+      chapters: 3
+
+    - english: "Haggai"
+      vietnamese: "A-ghê"
+      code: "OT-37"
+      chapters: 2
+
+    - english: "Zechariah"
+      vietnamese: "Xa-cha-ri"
+      code: "OT-38"
+      chapters: 14
+
+    - english: "Malachi"
+      vietnamese: "Ma-la-chi"
+      code: "OT-39"
+      chapters: 4
+
   new_testament:
+    - english: "Matthew"
+      vietnamese: "Ma-thi-ơ"
+      code: "NT-01"
+      chapters: 28
+
+    - english: "Mark"
+      vietnamese: "Mác"
+      code: "NT-02"
+      chapters: 16
+
+    - english: "Luke"
+      vietnamese: "Lu-ca"
+      code: "NT-03"
+      chapters: 24
+
+    - english: "John"
+      vietnamese: "Giăng"
+      code: "NT-04"
+      chapters: 21
+
+    - english: "Acts"
+      vietnamese: "Công Vụ các sứ đồ"
+      code: "NT-05"
+      chapters: 28
+
+    - english: "Romans"
+      vietnamese: "Rô-ma"
+      code: "NT-06"
+      chapters: 16
+
+    - english: "1 Corinthians"
+      vietnamese: "1 Cô-rinh-tô"
+      code: "NT-07"
+      chapters: 16
+
+    - english: "2 Corinthians"
+      vietnamese: "2 Cô-rinh-tô"
+      code: "NT-08"
+      chapters: 13
+
+    - english: "Galatians"
+      vietnamese: "Ga-la-ti"
+      code: "NT-09"
+      chapters: 6
+
+    - english: "Ephesians"
+      vietnamese: "Ê-phê-sô"
+      code: "NT-10"
+      chapters: 6
+
+    - english: "Philippians"
+      vietnamese: "Phi-líp"
+      code: "NT-11"
+      chapters: 4
+
+    - english: "Colossians"
+      vietnamese: "Cô-lô-se"
+      code: "NT-12"
+      chapters: 4
+
+    - english: "1 Thessalonians"
+      vietnamese: "1 Tê-sa-lô-ni-ca"
+      code: "NT-13"
+      chapters: 5
+
+    - english: "2 Thessalonians"
+      vietnamese: "2 Tê-sa-lô-ni-ca"
+      code: "NT-14"
+      chapters: 3
+
+    - english: "1 Timothy"
+      vietnamese: "1 Ti-mô-thê"
+      code: "NT-15"
+      chapters: 6
+
+    - english: "2 Timothy"
+      vietnamese: "2 Ti-mô-thê"
+      code: "NT-16"
+      chapters: 4
+
+    - english: "Titus"
+      vietnamese: "Tít"
+      code: "NT-17"
+      chapters: 3
+
+    - english: "Philemon"
+      vietnamese: "Phi-lê-môn"
+      code: "NT-18"
+      chapters: 1
+
+    - english: "Hebrews"
+      vietnamese: "Hê-bơ-rơ"
+      code: "NT-19"
+      chapters: 13
+
+    - english: "James"
+      vietnamese: "Gia-cơ"
+      code: "NT-20"
+      chapters: 5
+
+    - english: "1 Peter"
+      vietnamese: "1 Phi-e-rơ"
+      code: "NT-21"
+      chapters: 5
+
+    - english: "2 Peter"
+      vietnamese: "2 Phi-e-rơ"
+      code: "NT-22"
+      chapters: 3
+
+    - english: "1 John"
+      vietnamese: "1 Giăng"
+      code: "NT-23"
+      chapters: 5
+
+    - english: "2 John"
+      vietnamese: "2 Giăng"
+      code: "NT-24"
+      chapters: 1
+
+    - english: "3 John"
+      vietnamese: "3 Giăng"
+      code: "NT-25"
+      chapters: 1
+
+    - english: "Jude"
+      vietnamese: "Giu-đe"
+      code: "NT-26"
+      chapters: 1
+
     - english: "Revelation"
       vietnamese: "Khải Thị Lục"
-      category: "book_title"
-      notes: "Use 'sự mặc khải' for the general concept, 'Khải Thị Lục' only for the book title"
-
-  old_testament: []
+      code: "NT-27"
+      chapters: 22
