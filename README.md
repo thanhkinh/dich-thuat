@@ -1,6 +1,6 @@
 # Vua JAMES
 
-**Translation Name: VJ (Vua James)** — Vietnamese version following King James tradition
+**Translation Name: Vua James (code: VJ)** — Vietnamese version following King James tradition
 
 CC0 1.0 Universal — Public Domain
 
@@ -31,7 +31,7 @@ See `GLOSSARY.yaml` for complete list with context rules and decision trees.
 ### Translation Process
 
 1. Claim a chapter/verse range
-2. Use `/translate:do` skill
+2. Use `/translate:do` skill (automatically invokes `/planning-with-files` for systematic translation)
 3. Cross-reference GLOSSARY terms
 4. Submit PR for review
 
@@ -46,6 +46,7 @@ Use `/translate:review` skill. Checks:
 
 - `translate:do` — Main translation workflow
 - `translate:review` — Review translated content
+- `translate:revise` — Revise translations and update GLOSSARY entries
 - `glossary` — Update/validate term mappings
 
 ## Structure
@@ -55,7 +56,6 @@ Use `/translate:review` skill. Checks:
 ├── GLOSSARY.people.yaml  # Biblical person names
 ├── GLOSSARY.books.yaml   # Bible book titles
 ├── GLOSSARY.cities.yaml  # Cities and places
-├── samples/              # Translated chapters
 └── .claude/skills/       # Translation/review tools
 ```
 
