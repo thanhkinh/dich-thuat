@@ -95,4 +95,4 @@ Return Vietnamese translation only. No commentary unless asked.
 
 Input: "For God so loved the world, that he gave his only begotten Son"
 
-Output: "Vì Đức Chúa Trời đã quá yêu thế gian đến nỗi đã ban Con độc sanh của Ngài"
+Output: "Vì Thiên Chúa đã quá yêu thế gian đến nỗi đã ban Con độc sanh của Ngài"
