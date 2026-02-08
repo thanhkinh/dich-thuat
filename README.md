@@ -1,6 +1,6 @@
 # Vua JAMES
 
-**Translation Name: VJ (Vua James)** — Vietnamese version following King James tradition
+**Translation Name: Vua James (code: VJ)** — Vietnamese version following King James tradition
 
 CC0 1.0 Universal — Public Domain
 
