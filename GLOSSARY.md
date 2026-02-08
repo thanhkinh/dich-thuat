@@ -20,6 +20,7 @@
 - love -> sự yêu thương / ân ái
 - sin -> tội / sự gian ác
 - only begotten -> độc sinh
+- first begotten -> sinh đầu nhất
 
 ## Eschatology
 - heaven -> nước trời / thiên đàng
@@ -55,3 +56,6 @@ God responding:
 
 ## General Vocabulary
 - mighty -> cường thịnh / hùng mạnh / vĩ đại (not mãnh liệt)
+- Revelation -> Khải Thị Lục (book title), sự mặc khải (in sentences)
+- Thyatira -> Thy-a-ti-rơ
+- Smyrna -> Si-miệc-nơ
