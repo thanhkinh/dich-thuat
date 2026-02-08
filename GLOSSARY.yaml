@@ -63,12 +63,12 @@ terms:
   - term: "God"
     category: "divine_names"
     translations:
-      - vietnamese: "Đức Chúa Trời"
+      - vietnamese: "Thiên Chúa"
         register: "elevated"
         context: "General reference, default translation"
         primary: true
     alternatives:
-      - vietnamese: "Thiên Chúa"
+      - vietnamese: "Đức Chúa Trời"
         use_when: "Emphasizing sovereignty, covenant relationship"
       - vietnamese: "Chúa"
         use_when: "Direct address, vocative"
@@ -271,6 +271,14 @@ terms:
       - term: "giáo hội"
         reason: "More organizational/institutional"
 
+  - term: "Lord's day"
+    category: "ecclesiology"
+    translations:
+      - vietnamese: "ngày của Thiên Chúa"
+        register: "elevated"
+        primary: true
+    notes: "Sunday, resurrection day; emphasizes God's ownership"
+
   # === MINISTRY & PEOPLE ===
   - term: "angel"
     category: "ministry"
@@ -369,7 +377,7 @@ terms:
     category: "christological"
     variants: ["Alpha and Omega", "Alpha and Omega, the beginning and the end"]
     translations:
-      - vietnamese: "An-pha và Omega"
+      - vietnamese: "An-pha và Ô-mê-ga"
         register: "elevated"
         primary: true
     notes: "Christ's eternal nature - first and last, beginning and end"

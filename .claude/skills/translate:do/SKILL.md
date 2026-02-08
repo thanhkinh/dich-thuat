@@ -9,14 +9,37 @@ Translate King James Version Bible text to Vietnamese following NKJV "Complete E
 
 ## CRITICAL: Always Use Planning
 
-**MANDATORY**: Before starting any translation work, ALWAYS invoke `planning-with-files` skill first.
+**MANDATORY**: Before starting ANY translation work, ALWAYS invoke the `planning-with-files` skill first.
 
 The planning workflow creates:
-- `task_plan.md` - Translation plan
-- `findings.md` - Research notes
-- `progress.md` - Translation progress
+- `task_plan.md` - Translation plan with phases
+- `findings.md` - Research notes on terms, context, decisions
+- `progress.md` - Translation progress tracking
 
 This ensures systematic, trackable translation work with full context preservation.
+
+### Task Splitting: Paragraph-Based
+
+**Split translation work by paragraph: 1 task ≈ 1 paragraph**
+
+When creating `task_plan.md`, break the translation into discrete paragraph-level tasks:
+- Each paragraph (or logical verse group) = one phase/task
+- Small paragraphs may be grouped (2-3 related paragraphs)
+- Long paragraphs may be split by natural clause breaks
+
+**Example task_plan.md structure:**
+```markdown
+## Phases
+- [ ] Phase 1: Paragraph 1 (verses 1-3) - Opening greeting
+- [ ] Phase 2: Paragraph 2 (verses 4-6) - Prophetic oracle
+- [ ] Phase 3: Paragraph 3 (verses 7-10) - Vision description
+```
+
+**Benefits:**
+- Manageable context per translation unit
+- Easy progress tracking
+- Can resume work at paragraph boundaries
+- Facilitates focused review per unit
 
 ## Principle
 
@@ -75,6 +98,22 @@ When God speaks/shows:
 - Third person (humans): người, các ngươi
 - First person (God): Ta / Chúng Ta
 - First person (human): ta / chúng ta / tôi
+
+### CRITICAL: Grammatical Particles & Possessives
+**ALWAYS preserve these - they carry meaning:**
+
+- **"of"** → **"của"** (possessive - Lord's day = ngày của Chúa)
+- **"all/every"** → **"mọi"** (not just omitting)
+- **plural markers** → **"các"**, **"những"** (when English has plural)
+
+**Examples:**
+- "Lord's day" → "ngày của Chúa" (NOT "ngày Chúa")
+- "all the churches" → "mọi Hội Thánh" or "các Hội Thánh"
+- "word of God" → "lời Đức Chúa Trời" or "lời của Đức Chúa Trời"
+
+**Common KJV possessive patterns requiring "của":**
+- X's Y (X of God/Y of the Lord) → Y của X
+- Y of X → Y của X
 
 ### Text Types
 - Poetry: Preserve parallelism, use natural Vietnamese poetic rhythm

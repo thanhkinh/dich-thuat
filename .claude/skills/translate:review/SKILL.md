@@ -35,12 +35,15 @@ Critically evaluate translation output for:
 - [ ] No simplification of theological concepts
 - [ ] No modernization of archaic terms
 - [ ] Hebrew idioms maintained with imagery
+- [ ] **CRITICAL: All grammatical particles preserved** ("của" for "of", "các" for plural, "mọi" for "all/every")
+- [ ] **Possessive constructions preserved** (X's Y → Y của X, Y of X → Y của X)
 
 ### 3. Vietnamese Literary Quality
 - [ ] Natural, dignified language (trang trọng)
 - [ ] Appropriate rhythm/cadence for text type (poetry/prose)
 - [ ] No awkward word-for-word literalisms
 - [ ] No over-dynamic thought-for-thought paraphrasing
+- [ ] **Grammatically complete Vietnamese** (no missing particles, prepositions)
 
 ### 4. Pronouns & Address
 - [ ] God/Jesus: Ngài
@@ -62,7 +65,8 @@ Critically evaluate translation output for:
 ### 7. Undefined Terms Detection
 - [ ] Flag significant Vietnamese terms not in GLOSSARY
 - [ ] Prioritize: theological words, divine references, key concepts
-- [ ] Ignore: common words, grammatical particles, obvious context words
+- [ ] **DO NOT ignore**: grammatical particles critical for meaning ("của" for possession)
+- [ ] Ignore: only truly obvious context words (articles, basic prepositions not carrying theological weight)
 
 ## Input Format
 
@@ -121,3 +125,4 @@ SUGGESTED REVISION:
 - Missing key theological concept
 - Wrong prayer context verb (kêu gọi instead of kêu cầu)
 - Simplified/modernized archaic term
+- **Missing grammatical particles** ("của", "các", "mọi", "của Chúa/Thiên Chúa" for possessive)
