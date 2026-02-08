@@ -349,6 +349,31 @@ terms:
         primary: true
     notes: "Christ's self-designation, Messianic title"
 
+  - term: "Alpha"
+    category: "christological"
+    translations:
+      - vietnamese: "An-pha"
+        register: "elevated"
+        primary: true
+    notes: "Greek first letter; Christ's title meaning 'the Beginning'"
+
+  - term: "Omega"
+    category: "christological"
+    translations:
+      - vietnamese: "Ô-mê-ga"
+        register: "elevated"
+        primary: true
+    notes: "Greek last letter; Christ's title meaning 'the End'"
+
+  - term: "Alpha and Omega"
+    category: "christological"
+    variants: ["Alpha and Omega", "Alpha and Omega, the beginning and the end"]
+    translations:
+      - vietnamese: "An-pha và Omega"
+        register: "elevated"
+        primary: true
+    notes: "Christ's eternal nature - first and last, beginning and end"
+
   # === SOTERIOLOGY ===
   - term: "repentance"
     category: "soteriology"
