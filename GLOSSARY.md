@@ -56,3 +56,4 @@ God responding:
 ## General Vocabulary
 - mighty -> cường thịnh / hùng mạnh / vĩ đại (not mãnh liệt)
 - revelation -> sự mặc khải (see GLOSSARY.books.md for book title)
+- unless -> trừ khi, cho đến khi

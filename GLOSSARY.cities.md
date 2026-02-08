@@ -1,5 +1,6 @@
 # Vietnamese Protestant Terminology: Cities & Places
 
 ## Cities
-- Thyatira -> Thy-a-ti-rơ
+- Sardis -> Sạc-đe
 - Smyrna -> Si-miec-nơ
+- Thyatira -> Thy-a-ti-rơ

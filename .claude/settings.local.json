@@ -2,7 +2,8 @@
   "permissions": {
     "allow": [
       "WebSearch",
-      "Skill(planning-with-files:planning-with-files)"
+      "Skill(planning-with-files:planning-with-files)",
+      "Bash(ls:*)"
     ]
   }
 }

@@ -1,3 +1,8 @@
+---
+name: translation-review
+description: Critically review KJV to Vietnamese Translation
+---
+
 # Critical Review: KJV to Vietnamese Translation
 
 Reviews Vietnamese translation of KJV Bible text against "Complete Equivalence" standards.
@@ -50,6 +55,11 @@ Critically evaluate translation output for:
 - [ ] Book titles per GLOSSARY.books.md
 - [ ] Book titles vs sentence forms (e.g., Revelation: Khải Thị Lục vs revelation: sự mặc khải)
 
+### 7. Undefined Terms Detection
+- [ ] Flag significant Vietnamese terms not in GLOSSARY
+- [ ] Prioritize: theological words, divine references, key concepts
+- [ ] Ignore: common words, grammatical particles, obvious context words
+
 ## Input Format
 
 User provides:
@@ -77,6 +87,9 @@ VIETNAMESE QUALITY: [PASS/NEEDS IMPROVEMENT]
 PRONOUNS/ADDRESS: [PASS/FAIL]
 - [Any pronoun errors]
 
+UNDEFINED TERMS: [LIST or NONE]
+- [Vietnamese term] - potential for standardization (suggest: check if ...)
+
 SPECIFIC ISSUES:
 1. [Issue] - [Suggested fix if applicable]
 2. ...
@@ -87,8 +100,8 @@ SUGGESTED REVISION:
 
 ## Severity Levels
 
-- **PASS**: Meets all Complete Equivalence standards
-- **NEEDS REVISION**: Minor issues; core meaning intact
+- **PASS**: Meets all Complete Equivalence standards; no undefined terms
+- **NEEDS REVISION**: Minor issues OR undefined terms requiring standardization
 - **FAIL**: Major theological error, missing information, or wrong context
 
 ## Critical Fail Criteria
