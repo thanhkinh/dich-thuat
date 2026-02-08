@@ -26,14 +26,20 @@ Key terms:
 - church → Hội Thánh
 - gospel → Phúc Âm
 
+**CRITICAL: Grammatical particles carry meaning**
+- "of" → "của" (Lord's day = ngày của Chúa)
+- "all/every" → "mọi"
+- plural → "các", "những"
+
 See `GLOSSARY.yaml` for complete list with context rules and decision trees.
 
 ### Translation Process
 
 1. Claim a chapter/verse range
 2. Use `/translate:do` skill (automatically invokes `/planning-with-files` for systematic translation)
-3. Cross-reference GLOSSARY terms
-4. Submit PR for review
+3. **Work is split by paragraph** — 1 task ≈ 1 paragraph for manageable translation units
+4. Cross-reference GLOSSARY terms
+5. Submit PR for review
 
 ### Review
 
@@ -41,6 +47,7 @@ Use `/translate:review` skill. Checks:
 - Glossary term consistency
 - Literary Vietnamese form
 - KJV equivalence fidelity
+- **CRITICAL: Grammatical particles** ("của" for possessive, "mọi" for all/every, "các" for plural)
 
 ### Skills Located in `.claude/skills/`
 
