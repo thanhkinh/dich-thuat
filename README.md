@@ -1,17 +1,21 @@
-# Vietnamese Protestant Bible Translation
+# Vua JAMES
+
+**Translation Name: VJ (Vua James)** — Vietnamese version following King James tradition
 
 CC0 1.0 Universal — Public Domain
 
 ## Project
 
-KJV to Vietnamese translation following NKJV Complete Equivalence principle. Focus: consistent Protestant terminology.
+**Status:** Active Development
+
+**VJ (Vua James)** — KJV to Vietnamese translation following NKJV Complete Equivalence principle. Focus: consistent Protestant terminology using structured glossary with context-aware term selection.
 
 **Current:** Revelation chapters 1-3 (71 verses)
 
 ## Contributing
 
 ### Glossary
-All translations MUST reference `GLOSSARY.md` for term consistency.
+All translations MUST reference `GLOSSARY.yaml` (primary) for term consistency and context-aware selection.
 
 Key terms:
 - LORD (YHWH) → THIÊN CHÚA
@@ -22,7 +26,7 @@ Key terms:
 - church → Hội Thánh
 - gospel → Phúc Âm
 
-See `GLOSSARY.md` for complete list.
+See `GLOSSARY.yaml` for complete list with context rules and decision trees.
 
 ### Translation Process
 
@@ -47,8 +51,10 @@ Use `/review-kjv-vi` skill. Checks:
 ## Structure
 
 ```
-├── GLOSSARY.md           # Master term list
-├── GLOSSARY.*.md         # Categorized terms
+├── GLOSSARY.yaml         # Master glossary (divine names, theological terms, prayer verbs)
+├── GLOSSARY.people.yaml  # Biblical person names
+├── GLOSSARY.books.yaml   # Bible book titles
+├── GLOSSARY.cities.yaml  # Cities and places
 ├── samples/              # Translated chapters
 └── .claude/skills/       # Translation/review tools
 ```

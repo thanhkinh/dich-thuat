@@ -1,0 +1,18 @@
+---
+metadata:
+  version: "1.0"
+  tradition: "Vietnamese Protestant"
+  description: "Biblical cities and places for KJV to Vietnamese translation"
+
+cities:
+  - english: "Sardis"
+    vietnamese: "Sạc-đe"
+    region: "Asia Minor"
+
+  - english: "Smyrna"
+    vietnamese: "Si-miec-nơ"
+    region: "Asia Minor"
+
+  - english: "Thyatira"
+    vietnamese: "Thy-a-ti-rơ"
+    region: "Asia Minor"

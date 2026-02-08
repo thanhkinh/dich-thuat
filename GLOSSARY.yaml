@@ -4,7 +4,7 @@ metadata:
   tradition: "Vietnamese Protestant"
   source_base: "1925 Bible, Protestant theological manuals"
   encoding: "UTF-8"
-  last_updated: "2025-02-08"
+  last_updated: "2025-02-09"
   description: "Structured glossary for KJV to Vietnamese Bible translation following Complete Equivalence principle"
 
 categories:
@@ -285,6 +285,31 @@ terms:
       - vietnamese: "sứ đồ"
         register: "elevated"
         primary: true
+
+  - term: "Israel"
+    category: "ministry"
+    translations:
+      - vietnamese: "Ít-ra-ên"
+        register: "formal"
+        primary: true
+    notes: "Transliteration following 1925 Vietnamese Protestant Bible"
+
+  - term: "Israelites"
+    category: "ministry"
+    translations:
+      - vietnamese: "Dân Ít-ra-ên"
+        register: "formal"
+        use_when: "Collective people, 'the people of Israel'"
+      - vietnamese: "Người Ít-ra-ên"
+        register: "formal"
+        use_when: "Individual members"
+        primary: true
+    decision_tree:
+      - condition: "Collective, people group"
+        use: "Dân Ít-ra-ên"
+      - condition: "Individual Israelites"
+        use: "Người Ít-ra-ên"
+    notes: "Dân Ít-ra-ên for collective, Người Ít-ra-ên for individuals"
 
   - term: "disciple"
     category: "ministry"

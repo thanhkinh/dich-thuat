@@ -26,9 +26,9 @@ Critically evaluate translation output for:
 - [ ] Theological terms used correctly (cứu rỗi, công chính, ân điển, etc.)
 - [ ] No terms from "avoid" lists used
 - [ ] Alternatives match "use_when" conditions
-- [ ] City/place names per GLOSSARY.cities.md
-- [ ] Person names per GLOSSARY.people.md
-- [ ] Book titles per GLOSSARY.books.md
+- [ ] City/place names per GLOSSARY.cities.yaml
+- [ ] Person names per GLOSSARY.people.yaml
+- [ ] Book titles per GLOSSARY.books.yaml
 
 ### 2. Completeness (Complete Equivalence)
 - [ ] ALL KJV information preserved
@@ -54,9 +54,9 @@ Critically evaluate translation output for:
 - [ ] NOT used: kêu gọi (for prayer), báo (for God revealing)
 
 ### 6. Biblical Proper Names
-- [ ] City/place names per GLOSSARY.cities.md
-- [ ] Person names per GLOSSARY.people.md (including Jesus)
-- [ ] Book titles per GLOSSARY.books.md
+- [ ] City/place names per GLOSSARY.cities.yaml
+- [ ] Person names per GLOSSARY.people.yaml (including Jesus)
+- [ ] Book titles per GLOSSARY.books.yaml
 - [ ] Book titles vs sentence forms (e.g., Revelation: Khải Thị Lục vs revelation: sự mặc khải)
 
 ### 7. Undefined Terms Detection

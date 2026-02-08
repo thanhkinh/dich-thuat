@@ -1,0 +1,14 @@
+---
+metadata:
+  version: "1.0"
+  tradition: "Vietnamese Protestant"
+  description: "Bible book titles for KJV to Vietnamese translation"
+
+books:
+  new_testament:
+    - english: "Revelation"
+      vietnamese: "Khải Thị Lục"
+      category: "book_title"
+      notes: "Use 'sự mặc khải' for the general concept, 'Khải Thị Lục' only for the book title"
+
+  old_testament: []
