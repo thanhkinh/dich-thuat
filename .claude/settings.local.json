@@ -1,7 +1,8 @@
 {
   "permissions": {
     "allow": [
-      "WebSearch"
+      "WebSearch",
+      "Skill(planning-with-files:planning-with-files)"
     ]
   }
 }

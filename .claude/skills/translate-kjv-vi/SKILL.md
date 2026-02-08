@@ -20,41 +20,8 @@ Translate King James Version Bible text to Vietnamese following NKJV "Complete E
 
 ## Key Term Mapping
 
-- LORD (YHWH) -> Thiên Chúa
-- Lord (Adonai) -> Chúa
-- God -> Đức Chúa Trời
-- Jesus -> Giê-xu / Đức Giê-xu
-- Christ -> Cơ-đốc
-- Holy Spirit -> Đức Thánh Linh / Thánh Linh
-- salvation -> sự cứu rỗi
-- righteousness -> sự công chính
-- grace -> ân điển
-- mercy -> sự thương xót / sự thương hại
-- glory -> sự vinh quang
-- peace -> sự bình an
-- faith -> đức tin
-- hope -> sự trông cậy
-- love -> sự yêu thương / ân ái
-- sin -> tội / sự gian ác
-- heaven -> nước trời / thiên đàng
-- hell -> hỏa ngục / địa ngục
-- gospel -> Phúc Âm
-- church -> Hội Thánh
-- angel -> thiên sứ
-- apostle -> sứ đồ
-- disciple -> môn đồ
-- saint -> thánh đồ / thánh nhân
-- only begotten -> độc sinh
-- the Son of Man -> Nhân Tử
-- Kingdom of God -> Vương Quốc của Thiên Chúa
-- repentance -> sự ăn năn / sự hối cải
-- baptism -> phép báp-têm
-- show/shew -> cho biết / bày tỏ / chỉ cho (not báo)
-- mighty -> cường thịnh / hùng mạnh / vĩ đại (not mãnh liệt)
-- answer (God responding) -> đáp lời
-- call (to God) -> kêu cầu / cầu xin
-- cry (to God) -> kêu khấn / khóc van
-- pray -> cầu nguyện / cầu xin
+CRITICAL: Before translating, read /GLOSSARY.md and apply all term mappings.
+Use these terms consistently for all translations.
 
 ## Translation Guidelines
 
