@@ -1,5 +1,5 @@
 ---
-name: translation-review
+name: translate:review
 description: Critically review KJV to Vietnamese Translation
 ---
 

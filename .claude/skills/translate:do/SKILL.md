@@ -1,3 +1,8 @@
+---
+name: translate:do
+description: Translate KJV to Vietnamese following Complete Equivalence
+---
+
 # Translate KJV to Vietnamese
 
 Translate King James Version Bible text to Vietnamese following NKJV "Complete Equivalence" principle.

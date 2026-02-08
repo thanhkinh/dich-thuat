@@ -31,21 +31,21 @@ See `GLOSSARY.yaml` for complete list with context rules and decision trees.
 ### Translation Process
 
 1. Claim a chapter/verse range
-2. Use `/translate-kjv-vi` skill
+2. Use `/translate:do` skill
 3. Cross-reference GLOSSARY terms
 4. Submit PR for review
 
 ### Review
 
-Use `/review-kjv-vi` skill. Checks:
+Use `/translate:review` skill. Checks:
 - Glossary term consistency
 - Literary Vietnamese form
 - KJV equivalence fidelity
 
 ### Skills Located in `.claude/skills/`
 
-- `translate-kjv-vi` — Main translation workflow
-- `review-kjv-vi` — Review translated content
+- `translate:do` — Main translation workflow
+- `translate:review` — Review translated content
 - `glossary` — Update/validate term mappings
 
 ## Structure
