@@ -1,0 +1,34 @@
+{{define "content"}}
+<div class="chapter-nav">
+    <div>
+        {{if .Book}}
+        <h2 style="color: #1e3a5f; margin-bottom: 10px;">{{.Book.Name}}</h2>
+        <p style="color: #666;">Chương {{.Chapter.Number}}</p>
+        {{end}}
+    </div>
+    <div style="display: flex; gap: 10px;">
+        <a href="/">← Danh sách</a>
+    </div>
+</div>
+
+<div style="margin-bottom: 30px;">
+    <div class="chapter-list">
+        {{range .Book.Chapters}}
+        {{if eq . $.Chapter.Number}}
+        <span class="chapter-link" style="background: #2c5282; color: white;">{{.}}</span>
+        {{else}}
+        <a href="/book/{{$.Book.ID}}/{{.}}" class="chapter-link">{{.}}</a>
+        {{end}}
+        {{end}}
+    </div>
+</div>
+
+<div style="max-width: 900px; margin: 0 auto;">
+    {{range .Chapter.Verses}}
+    <div class="verse">
+        <span class="verse-number">{{.Number}}</span>
+        <span class="verse-text">{{.Text}}</span>
+    </div>
+    {{end}}
+</div>
+{{end}}
