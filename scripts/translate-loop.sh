@@ -75,11 +75,30 @@ books=(
 i=1
 for book in "${books[@]}"; do
     echo "Translate $book -- #$i"
-    # Clear planning files from previous iteration
-    > findings.md
-    > progress.md
-    > task_plan.md
-    ~/.local/bin/claude --allow-dangerously-skip-permissions -p "/translate:do $book"
+
+    # Determine book directory
+    if [ $i -le 39 ]; then
+        book_dir="OT-$(printf "%02d" $i)"
+    else
+        nt_index=$((i - 39))
+        book_dir="NT-$(printf "%02d" $nt_index)"
+    fi
+
+    # Get chapter count
+    kjv_dir="translations/kjv/$book_dir"
+    chapter_count=$(ls "$kjv_dir"/*.yaml 2>/dev/null | wc -l)
+    echo "  ($book_dir: $chapter_count chapters)"
+
+    # Loop through chapters
+    for chapter in $(seq 1 $chapter_count); do
+        echo "  > Chapter $chapter"
+        # Clear planning files
+        > findings.md
+        > progress.md
+        > task_plan.md
+        ~/.local/bin/claude --allow-dangerously-skip-permissions -p "/translate:do $book $chapter"
+    done
+
     ((i++))
 done
 

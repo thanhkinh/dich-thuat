@@ -10,7 +10,8 @@
       "Bash(bash scripts/split-kjv.sh:*)",
       "Bash(git ls-tree:*)",
       "Bash(gh pr create:*)",
-      "Skill(planning-with-files)"
+      "Skill(planning-with-files)",
+      "Bash(for:*)"
     ]
   }
 }

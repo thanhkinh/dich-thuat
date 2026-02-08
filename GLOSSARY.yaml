@@ -4,7 +4,7 @@ metadata:
   tradition: "Vietnamese Protestant"
   source_base: "1925 Bible, Protestant theological manuals"
   encoding: "UTF-8"
-  last_updated: "2026-02-08T09:45:31Z"
+  last_updated: "2026-02-08T11:02:16Z"
   description: "Structured glossary for KJV to Vietnamese Bible translation following Complete Equivalence principle"
 
 categories:
@@ -621,3 +621,23 @@ terms:
         register: "formal"
         use_when: "Stone cutting context"
     notes: "Cut/finished stone with tools"
+
+  - term: "bless"
+    category: "general"
+    translations:
+      - vietnamese: "ban phước"
+        register: "elevated"
+        context: "God as subject - God actually bestows blessing"
+        primary: true
+      - vietnamese: "chúc phước"
+        register: "formal"
+        use_when: "Human subject - expresses wish/prayer"
+    decision_tree:
+      - condition: "Subject is God"
+        use: "ban phước"
+      - condition: "Subject is human"
+        use: "chúc phước"
+    avoid:
+      - term: "chúc phước"
+        reason: "When subject is God - 'chúc' means 'to wish', but God truly bestows, not merely wishes"
+    notes: "Crucial theological distinction: God gives (ban), humans wish (chúc)"

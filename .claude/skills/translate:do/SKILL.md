@@ -18,6 +18,28 @@ The planning workflow creates:
 
 This ensures systematic, trackable translation work with full context preservation.
 
+## CRITICAL: Check for Existing Translation
+
+**Before ANY translation work, check if the target file already exists.**
+
+If the file exists, **REFUSE to translate** and inform the user:
+```
+Translation file already exists: translations/vj/{BOOK_CODE}/{CHAPTER}.yaml
+Use /translate:revise to modify existing translations.
+```
+
+**Pre-flight check process:**
+1. Look up the book code from `GLOSSARY.books.yaml` (e.g., "Genesis" → "OT-01")
+2. Construct the target file path: `translations/vj/{BOOK_CODE}/{CHAPTER}.yaml`
+3. Check if the file exists using the Read tool or Bash `test -f` command
+4. If file exists, stop and refuse to proceed
+5. If file does NOT exist, proceed with translation
+
+**Examples:**
+- `/translate:do Genesis 1` → Check `translations/vj/OT-01/01.yaml` → exists → REFUSE
+- `/translate:do Genesis 50` → Check `translations/vj/OT-01/50.yaml` → does not exist → PROCEED
+- `/translate:do Matthew 5` → Check `translations/vj/NT-01/05.yaml` → exists → REFUSE
+
 ### Task Splitting: Paragraph-Based
 
 **Split translation work by paragraph: 1 task ≈ 1 paragraph**
@@ -131,6 +153,24 @@ User provides KJV verse text.
 ## Output Format
 
 Return Vietnamese translation only. No commentary unless asked.
+
+## CRITICAL: Writing Results
+
+After translation, **MUST use the `translate:write-result` skill** to save the translation to file.
+
+The `translate:write-result` skill handles:
+- Book code lookup from GLOSSARY.books.yaml
+- Correct output directory structure
+- YAML file format
+- Directory creation
+
+**Usage:**
+```
+Invoke the translate:write-result skill with:
+- book_name: English book name (e.g., "Genesis")
+- chapter: Chapter number (e.g., 3)
+- translations: Map of verse numbers to Vietnamese text
+```
 
 ## Example
 
