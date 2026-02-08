@@ -7,6 +7,17 @@ description: Translate KJV to Vietnamese following Complete Equivalence
 
 Translate King James Version Bible text to Vietnamese following NKJV "Complete Equivalence" principle.
 
+## CRITICAL: Always Use Planning
+
+**MANDATORY**: Before starting any translation work, ALWAYS invoke `planning-with-files` skill first.
+
+The planning workflow creates:
+- `task_plan.md` - Translation plan
+- `findings.md` - Research notes
+- `progress.md` - Translation progress
+
+This ensures systematic, trackable translation work with full context preservation.
+
 ## Principle
 
 **Complete Equivalence**: Preserve ALL information in original text while presenting it in good literary Vietnamese form.
