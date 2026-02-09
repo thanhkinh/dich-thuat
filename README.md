@@ -12,6 +12,11 @@ CC0 1.0 Universal — Public Domain
 
 **Current:** Revelation chapters 1-3 (71 verses)
 
+### Documentation
+
+- **[TRANSLATION_GUIDE.md](TRANSLATION_GUIDE.md)** — Practical guide for translators using AI-assisted workflow
+- **[RESEARCH_BIBLE_TRANSLATION_AI.md](RESEARCH_BIBLE_TRANSLATION_AI.md)** — Comprehensive research on professional Bible translation with AI assistance
+
 ## Contributing
 
 ### Glossary
@@ -35,10 +40,12 @@ See `GLOSSARY.yaml` for complete list with context rules and decision trees.
 
 ### Translation Process
 
+**Quick Start:** See [TRANSLATION_GUIDE.md](TRANSLATION_GUIDE.md) for detailed workflow.
+
 1. Claim a chapter/verse range
 2. Use `/translate:do` skill (automatically invokes `/planning-with-files` for systematic translation)
 3. **Work is split by paragraph** — 1 task ≈ 1 paragraph for manageable translation units
-4. Cross-reference GLOSSARY terms
+4. Cross-reference GLOSSARY terms (see TRANSLATION_GUIDE.md for glossary usage)
 5. Submit PR for review
 
 ### Review
@@ -48,6 +55,8 @@ Use `/translate:review` skill. Checks:
 - Literary Vietnamese form
 - KJV equivalence fidelity
 - **CRITICAL: Grammatical particles** ("của" for possessive, "mọi" for all/every, "các" for plural)
+
+**Complete Review Process:** See [TRANSLATION_GUIDE.md](TRANSLATION_GUIDE.md#phase-4-automated-review)
 
 ### Skills Located in `.claude/skills/`
 
@@ -73,15 +82,17 @@ See [webapp/README.md](webapp/README.md) for full documentation.
 ## Structure
 
 ```
-├── GLOSSARY.yaml         # Master glossary (divine names, theological terms, prayer verbs)
-├── GLOSSARY.people.yaml  # Biblical person names
-├── GLOSSARY.books.yaml   # Bible book titles
-├── GLOSSARY.cities.yaml  # Cities and places
-├── .claude/skills/       # Translation/review tools
-├── webapp/               # Web application for viewing translations
+├── GLOSSARY.yaml                      # Master glossary (divine names, theological terms, prayer verbs)
+├── GLOSSARY.people.yaml               # Biblical person names
+├── GLOSSARY.books.yaml                # Bible book titles
+├── GLOSSARY.cities.yaml               # Cities and places
+├── TRANSLATION_GUIDE.md               # Practical translator guide with AI workflow
+├── RESEARCH_BIBLE_TRANSLATION_AI.md   # Research on professional translation methodology
+├── .claude/skills/                    # Translation/review tools
+├── webapp/                            # Web application for viewing translations
 └── translations/
-    ├── kjv/              # KJV source files
-    └── vj/               # Vua James translation
+    ├── kjv/                           # KJV source files
+    └── vj/                            # Vua James translation
 ```
 
 ## License
