@@ -54,6 +54,14 @@ mkdir -p translations/vj/{BOOK_CODE}/
 Files must follow this exact format (matching `translations/vj/OT-01/01.yaml`):
 
 ```yaml
+---
+book: $vietnamese_book_name
+chapter: $chapter_number
+revisions:
+  - date: $ISO_8601_UTC_DATE (e.g., 2026-02-09T14:59:03Z)
+    description: Initial translation
+    model: claude-3-7-sonnet-20250219
+---
 {chapter_number}:
   1: "Verse 1 translation text"
   2: "Verse 2 translation text"
