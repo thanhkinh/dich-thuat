@@ -3,9 +3,411 @@ metadata:
   version: "1.0"
   tradition: "Vietnamese Protestant"
   description: "Biblical person names for KJV to Vietnamese translation"
+  last_updated: "2026-02-09T01:02:09Z"
 
 people:
+  - name: "Adam"
+    vietnamese: "Adam"
+    notes: "First man; transliterated from Hebrew"
+
+  - name: "Eve"
+    vietnamese: "Ê-va"
+    notes: "First woman; mother of all living"
+
+  - name: "Cain"
+    vietnamese: "Quyin"
+    notes: "First son of Adam and Eve; murdered Abel"
+
+  - name: "Abel"
+    vietnamese: "A-bên"
+    notes: "Second son of Adam and Eve; shepherd, killed by Cain"
+
+  - name: "Enoch"
+    vietnamese: "Ê-nóc"
+    notes: "Son of Cain; city builder"
+
+  - name: "Irad"
+    vietnamese: "I-rát"
+    notes: "Descendant of Cain"
+
+  - name: "Mehujael"
+    vietnamese: "Me-hu-gia-ên"
+    notes: "Descendant of Cain"
+
+  - name: "Methusael"
+    vietnamese: "Me-thu-sa-ên"
+    notes: "Descendant of Cain"
+
+  - name: "Lamech"
+    vietnamese: "La-méc"
+    notes: "Descendant of Cain; polygamist; avenger"
+
+  - name: "Adah"
+    vietnamese: "A-đa"
+    notes: "First wife of Lamech"
+
+  - name: "Zillah"
+    vietnamese: "Xi-la"
+    notes: "Second wife of Lamech"
+
+  - name: "Jabal"
+    vietnamese: "Gia-ban"
+    notes: "Son of Adah and Lamech; father of tent-dwellers and cattle-keepers"
+
+  - name: "Jubal"
+    vietnamese: "Giu-ban"
+    notes: "Son of Adah and Lamech; father of musicians"
+
+  - name: "Tubalcain"
+    vietnamese: "Tu-van-ca-in"
+    notes: "Son of Zillah and Lamech; metalworker"
+
+  - name: "Naamah"
+    vietnamese: "Na-a-ma"
+    notes: "Sister of Tubalcain"
+
+  - name: "Seth"
+    vietnamese: "Sét"
+    notes: "Third son of Adam and Eve; replacement for Abel"
+
+  - name: "Enos"
+    vietnamese: "Ê-nốt"
+    notes: "Son of Seth"
+
+  - name: "Cainan"
+    vietnamese: "Ca-inan"
+    notes: "Son of Enos"
+
+  - name: "Mahalaleel"
+    vietnamese: "Ma-ha-la-ên"
+    notes: "Son of Cainan"
+
+  - name: "Jared"
+    vietnamese: "Gia-rét"
+    notes: "Son of Mahalaleel"
+
+  - name: "Enoch"
+    vietnamese: "Ê-nóc"
+    notes: "Son of Jared; walked with God; God took him (did not die)"
+
+  - name: "Methuselah"
+    vietnamese: "Me-thu-sê-lah"
+    notes: "Son of Enoch; longest-lived person (969 years)"
+
+  - name: "Noah"
+    vietnamese: "Nô-ê"
+    notes: "Son of Lamech; built the ark; name means 'rest/comfort'"
+
+  - name: "Shem"
+    vietnamese: "Xim"
+    notes: "Son of Noah"
+
+  - name: "Ham"
+    vietnamese: "Ham"
+    notes: "Son of Noah"
+
+  - name: "Japheth"
+    vietnamese: "Gia-phét"
+    notes: "Son of Noah"
+
   - name: "Jesus"
     vietnamese: "Giê-xu"
     formal: "Đức Giê-xu"
     notes: "Use Đức Giê-xu for first mention or formal address, Giê-xu for subsequent references"
+
+  - name: "Abram"
+    vietnamese: "A-bram"
+    notes: "Original name meaning 'exalted father'; changed to Abraham in Genesis 17"
+
+  - name: "Abraham"
+    vietnamese: "A-bra-ham"
+    notes: "Father of many nations; name changed from Abram in Genesis 17:5"
+
+  - name: "Sarai"
+    vietnamese: "Sa-rai"
+    notes: "Original name meaning 'my princess'; changed to Sarah in Genesis 17"
+
+  - name: "Sarah"
+    vietnamese: "Sa-ra"
+    notes: "Princess; mother of Isaac; name changed from Sarai in Genesis 17:15"
+
+  - name: "Ishmael"
+    vietnamese: "Y-sma-ên"
+    notes: "Son of Abraham and Hagar; born when Abraham was 86"
+
+  - name: "Isaac"
+    vietnamese: "Y-sác"
+    notes: "Son of promise; born to Abraham and Sarah in their old age"
+
+  - name: "Rebekah"
+    vietnamese: "Rê-bê-ca"
+    notes: "Wife of Isaac; mother of Esau and Jacob; helped Jacob receive blessing"
+
+  - name: "Esau"
+    vietnamese: "Ê-sau"
+    notes: "Eldest son of Isaac and Rebekah; hunter; sold birthright to Jacob"
+
+  - name: "Jacob"
+    vietnamese: "Gia-cốp"
+    notes: "Younger son of Isaac and Rebekah; name means 'supplanter'; received blessing through deception"
+
+  - name: "Laban"
+    vietnamese: "La-ban"
+    notes: "Brother of Rebekah; father of Leah and Rachel; Jacob's uncle"
+
+  - name: "Heth"
+    vietnamese: "Hết"
+    notes: "Ancestor of Hittites; Esau married Canaanite women from this line"
+
+  - name: "Nahor"
+    vietnamese: "Na-hor"
+    notes: "Grandfather of Laban and Rebekah; brother of Abraham"
+
+  - name: "Rachel"
+    vietnamese: "Ra-chen"
+    notes: "Younger daughter of Laban; wife of Jacob; beautiful and beloved; mother of Joseph and Benjamin"
+
+  - name: "Leah"
+    vietnamese: "Lê-a"
+    notes: "Eldest daughter of Laban; first wife of Jacob; tender eyed; mother of Reuben, Simeon, Levi, Judah and others"
+
+  - name: "Reuben"
+    vietnamese: "Ru-ben"
+    notes: "First son of Jacob and Leah; name means 'behold, a son'; Leah hoped Jacob would love her for bearing him"
+
+  - name: "Simeon"
+    vietnamese: "Xi-môn"
+    notes: "Second son of Jacob and Leah; name means 'hearing'; Leah named him knowing God heard she was hated"
+
+  - name: "Levi"
+    vietnamese: "Lê-vi"
+    notes: "Third son of Jacob and Leah; name means 'joined'; Leah hoped husband would be joined to her"
+
+  - name: "Judah"
+    vietnamese: "Giu-đa"
+    notes: "Fourth son of Jacob and Leah; name means 'praise'; Leah praised the LORD for his birth"
+
+  - name: "Zilpah"
+    vietnamese: "Xin-pa"
+    notes: "Handmaid of Leah; given by Laban; later bore sons to Jacob as surrogate"
+
+  - name: "Bilhah"
+    vietnamese: "Bỉ-ha"
+    notes: "Handmaid of Rachel; given by Laban; later bore sons to Jacob as surrogate"
+
+  - name: "Joseph"
+    vietnamese: "Giô-sép"
+    notes: "Eleventh son of Jacob and Rachel; beloved son; sold into slavery by brothers; rose to power in Egypt; means 'he will add'"
+
+  - name: "Potiphar"
+    vietnamese: "Po-ti-phát"
+    notes: "Egyptian officer of Pharaoh, captain of the guard; bought Joseph from Ishmaelites; whose wife falsely accused Joseph"
+
+  - name: "Pharaoh"
+    vietnamese: "Pha-ra-ô"
+    notes: "Title of Egyptian rulers; in Genesis 39, Potiphar served Pharaoh"
+
+  - name: "Benjamin"
+    vietnamese: "Be-nê-min"
+    notes: "Youngest son of Jacob and Rachel; only full brother of Joseph; beloved by Jacob; name means 'son of the right hand'"
+
+  - name: "Moses"
+    vietnamese: "Môi-se"
+    formal: "Đức Môi-se"
+    notes: "Drawn out of water; deliverer of Israel; received Law at Sinai; name means 'to draw out'"
+
+  - name: "Aaron"
+    vietnamese: "A-rôn"
+    formal: "Đức A-rôn"
+    notes: "Brother of Moses; first high priest of Israel; spokesman for Moses; tribe of Levi"
+
+  - name: "Reuel"
+    vietnamese: "Ru-u-ên"
+    notes: "Priest of Midian; father of Zipporah; also called Jethro (Exodus 3:1)"
+
+  - name: "Jethro"
+    vietnamese: "Giê-trô"
+    notes: "Father-in-law of Moses, priest of Midian; also called Reuel; name means 'his excellence'"
+
+  - name: "Zipporah"
+    vietnamese: "Xíp-po-ra"
+    notes: "Daughter of Reuel/Jethro; wife of Moses; mother of Gershom and Eliezer"
+
+  - name: "Gershom"
+    vietnamese: "Gêr-sôm"
+    notes: "First son of Moses and Zipporah; name means 'stranger in a strange land' (Exodus 2:22)"
+
+  - name: "Eliezer"
+    vietnamese: "Ê-li-ê-xê"
+    notes: "Second son of Moses and Zipporah; name means 'God of my father [was] my help' (Exodus 2:22, 18:4)"
+
+  # === Exodus 6 Genealogy Names ===
+  - name: "Hanoch"
+    vietnamese: "Ha-nóc"
+    notes: "Son of Reuben (Exodus 6:14)"
+
+  - name: "Pallu"
+    vietnamese: "Pa-lu"
+    notes: "Son of Reuben (Exodus 6:14)"
+
+  - name: "Hezron"
+    vietnamese: "Hét-xôn"
+    notes: "Son of Reuben (Exodus 6:14)"
+
+  - name: "Carmi"
+    vietnamese: "Ca-mi"
+    notes: "Son of Reuben (Exodus 6:14)"
+
+  - name: "Jemuel"
+    vietnamese: "Giê-mu-ên"
+    notes: "Son of Simeon (Exodus 6:15)"
+
+  - name: "Jamin"
+    vietnamese: "Ga-min"
+    notes: "Son of Simeon (Exodus 6:15)"
+
+  - name: "Ohad"
+    vietnamese: "Ô-hát"
+    notes: "Son of Simeon (Exodus 6:15)"
+
+  - name: "Jachin"
+    vietnamese: "Ga-chin"
+    notes: "Son of Simeon (Exodus 6:15)"
+
+  - name: "Zohar"
+    vietnamese: "Xô-ha"
+    notes: "Son of Simeon (Exodus 6:15)"
+
+  - name: "Shaul"
+    vietnamese: "Sau-lơ"
+    notes: "Son of Simeon, born to a Canaanitish woman (Exodus 6:15)"
+
+  - name: "Gershon"
+    vietnamese: "Ghê-sơn"
+    notes: "Son of Levi; founder of Gershonite clan (Exodus 6:16)"
+
+  - name: "Kohath"
+    vietnamese: "Cô-hát"
+    notes: "Son of Levi; founder of Kohathite clan; lived 133 years (Exodus 6:18)"
+
+  - name: "Merari"
+    vietnamese: "Mê-ra-ri"
+    notes: "Son of Levi; founder of Merarite clan (Exodus 6:16)"
+
+  - name: "Libni"
+    vietnamese: "Líp-ni"
+    notes: "Son of Gershon (Exodus 6:17)"
+
+  - name: "Shimi"
+    vietnamese: "Xi-mi"
+    notes: "Son of Gershon (Exodus 6:17)"
+
+  - name: "Amram"
+    vietnamese: "Am-ram"
+    notes: "Son of Kohath; father of Aaron and Moses; married Jochebed his aunt; lived 137 years (Exodus 6:20)"
+
+  - name: "Izhar"
+    vietnamese: "Y-xa"
+    notes: "Son of Kohath (Exodus 6:18)"
+
+  - name: "Hebron"
+    vietnamese: "Hê-b-rơn"
+    notes: "Son of Kohath (Exodus 6:18) - person, not the city"
+
+  - name: "Uzziel"
+    vietnamese: "Uz-i-ên"
+    notes: "Son of Kohath (Exodus 6:18)"
+
+  - name: "Mahali"
+    vietnamese: "Ma-ha-li"
+    notes: "Son of Merari (Exodus 6:19)"
+
+  - name: "Mushi"
+    vietnamese: "Mu-si"
+    notes: "Son of Merari (Exodus 6:19)"
+
+  - name: "Jochebed"
+    vietnamese: "Giô-khê-bét"
+    notes: "Daughter of Levi, wife of Amram (her uncle), mother of Aaron and Moses (Exodus 6:20)"
+
+  - name: "Korah"
+    vietnamese: "Cô-ra"
+    notes: "Son of Izhar; leader of rebellion against Moses (Exodus 6:21, Numbers 16)"
+
+  - name: "Nepheg"
+    vietnamese: "Nê-phêc"
+    notes: "Son of Izhar (Exodus 6:21)"
+
+  - name: "Zichri"
+    vietnamese: "Xich-ri"
+    notes: "Son of Izhar (Exodus 6:21)"
+
+  - name: "Mishael"
+    vietnamese: "Mi-sa-ên"
+    notes: "Son of Uzziel (Exodus 6:22)"
+
+  - name: "Elzaphan"
+    vietnamese: "Êl-za-phân"
+    notes: "Son of Uzziel (Exodus 6:22)"
+
+  - name: "Zithri"
+    vietnamese: "Xith-ri"
+    notes: "Son of Uzziel (Exodus 6:22)"
+
+  - name: "Elisheba"
+    vietnamese: "Ê-li-sê-ba"
+    notes: "Wife of Aaron; daughter of Amminadab, sister of Naashon; mother of Nadab, Abihu, Eleazar, Ithamar (Exodus 6:23)"
+
+  - name: "Amminadab"
+    vietnamese: "Am-mi-na-đáp"
+    notes: "Father of Elisheba and Naashon (Exodus 6:23)"
+
+  - name: "Naashon"
+    vietnamese: "Na-a-sôn"
+    notes: "Brother of Elisheba; leader of Judah tribe (Exodus 6:23)"
+
+  - name: "Nadab"
+    vietnamese: "Na-đáp"
+    notes: "First son of Aaron; died for offering strange fire (Exodus 6:23, Leviticus 10)"
+
+  - name: "Abihu"
+    vietnamese: "A-bi-hu"
+    notes: "Second son of Aaron; died for offering strange fire (Exodus 6:23, Leviticus 10)"
+
+  - name: "Eleazar"
+    vietnamese: "Ê-le-a-sa"
+    notes: "Third son of Aaron; succeeded Aaron as high priest; father of Phinehas (Exodus 6:23)"
+
+  - name: "Ithamar"
+    vietnamese: "Y-tha-ma"
+    notes: "Fourth son of Aaron (Exodus 6:23)"
+
+  - name: "Assir"
+    vietnamese: "A-xít"
+    notes: "Son of Korah (Exodus 6:24)"
+
+  - name: "Elkanah"
+    vietnamese: "Êl-ca-na"
+    notes: "Son of Korah (Exodus 6:24)"
+
+  - name: "Abiasaph"
+    vietnamese: "A-bi-a-sáp"
+    notes: "Son of Korah (Exodus 6:24)"
+
+  - name: "Putiel"
+    vietnamese: "Pu-ti-ên"
+    notes: "Father of Eleazar's wife (Exodus 6:25)"
+
+  - name: "Phinehas"
+    vietnamese: "Phin-hê-s"
+    notes: "Son of Eleazar; zealous for God's honor (Exodus 6:25, Numbers 25)"
+
+  # === Exodus 17 Names ===
+  - name: "Joshua"
+    vietnamese: "Giô-suê"
+    formal: "Đức Giô-suê"
+    notes: "Son of Nun, assistant to Moses; led Israelites into Promised Land; name means 'Yahweh saves' (Exodus 17)"
+
+  - name: "Hur"
+    vietnamese: "Hu"
+    notes: "Assistant to Moses, with Aaron; held up Moses' hands during battle with Amalek (Exodus 17:10-12)"

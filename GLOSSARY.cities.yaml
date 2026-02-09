@@ -3,8 +3,19 @@ metadata:
   version: "1.0"
   tradition: "Vietnamese Protestant"
   description: "Biblical cities and places for KJV to Vietnamese translation"
+  last_updated: "2026-02-08T00:00:00Z"
 
 cities:
+  - english: "Eden"
+    vietnamese: "Ê-đen"
+    region: "Mesopotamia"
+    notes: "Garden of Eden; location of first created humans"
+
+  - english: "Nod"
+    vietnamese: "Nốt"
+    region: "East of Eden"
+    notes: "Land of Nod; where Cain settled after killing Abel; name means 'wandering'"
+
   - english: "Sardis"
     vietnamese: "Sạc-đe"
     region: "Asia Minor"
@@ -16,3 +27,49 @@ cities:
   - english: "Thyatira"
     vietnamese: "Thy-a-ti-rơ"
     region: "Asia Minor"
+
+  - english: "Haran"
+    vietnamese: "Ha-ran"
+    region: "Mesopotamia (Paddan-aram)"
+    notes: "City where Terah died; Abraham left here; Jacob fled here and served Laban; home of Rachel and Leah"
+
+  - english: "Canaan"
+    vietnamese: "Ca-na-an"
+    region: "Promised Land"
+    notes: "Land where Jacob and his family lived; experiencing famine during Genesis 42"
+
+  - english: "Egypt"
+    vietnamese: "Ê-díp-tô"
+    region: "Northeast Africa"
+    notes: "Land where Joseph served as governor under Pharaoh; source of grain during famine"
+
+  - english: "Midian"
+    vietnamese: "Mi-điên"
+    region: "East of Gulf of Aqaba, Arabian Peninsula"
+    notes: "Desert region where Moses fled after killing Egyptian; home of Reuel/Jethro; Moses married Zipporah here"
+
+  - english: "Horeb"
+    vietnamese: "Hô-rếp"
+    region: "Sinai Peninsula"
+    notes: "Mountain of God where Moses saw burning bush; also called Mount Sinai; location of the burning bush theophany (Exodus 3)"
+
+  # === Exodus 17 Places ===
+  - english: "Sin"
+    vietnamese: "Xim"
+    region: "Sinai Peninsula"
+    notes: "Wilderness of Sin; desert region between Egypt and Sinai where Israel camped (Exodus 17)"
+
+  - english: "Rephidim"
+    vietnamese: "Rê-phi-dim"
+    region: "Sinai Peninsula"
+    notes: "Desert camping place where Israel had no water; fought Amalek; Moses struck the rock (Exodus 17)"
+
+  - english: "Massah"
+    vietnamese: "Ma-xa"
+    region: "Sinai Peninsula"
+    notes: "Hebrew name meaning 'testing'; place where Israel tested God asking 'Is the LORD among us?' (Exodus 17:7)"
+
+  - english: "Meribah"
+    vietnamese: "Me-ri-ba"
+    region: "Sinai Peninsula"
+    notes: "Hebrew name meaning 'contention' or 'strife'; place where Israel quarreled with Moses (Exodus 17:7)"

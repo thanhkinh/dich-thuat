@@ -29,11 +29,12 @@ Use /translate:revise to modify existing translations.
 ```
 
 **Pre-flight check process:**
-1. Look up the book code from `GLOSSARY.books.yaml` (e.g., "Genesis" → "OT-01")
-2. Construct the target file path: `translations/vj/{BOOK_CODE}/{CHAPTER}.yaml`
-3. Check if the file exists using the Read tool or Bash `test -f` command
-4. If file exists, stop and refuse to proceed
-5. If file does NOT exist, proceed with translation
+1. Use the `translate:find-source` skill to get the KJV source file path
+2. Look up the book code from `GLOSSARY.books.yaml` (e.g., "Genesis" → "OT-01")
+3. Construct the target file path: `translations/vj/{BOOK_CODE}/{CHAPTER}.yaml`
+4. Check if the file exists using the Read tool or Bash `test -f` command
+5. If file exists, stop and refuse to proceed
+6. If file does NOT exist, proceed with translation
 
 **Examples:**
 - `/translate:do Genesis 1` → Check `translations/vj/OT-01/01.yaml` → exists → REFUSE
@@ -148,7 +149,12 @@ When God speaks/shows:
 
 ## Input Format
 
-User provides KJV verse text.
+Source text is obtained from KJV files using the `translate:find-source` skill.
+
+To get the source text:
+1. Invoke `translate:find-source` with book_name and chapter
+2. Read the returned KJV source file
+3. Extract verses to translate
 
 ## Output Format
 
