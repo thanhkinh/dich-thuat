@@ -3,7 +3,7 @@ metadata:
   version: "1.0"
   tradition: "Vietnamese Protestant"
   description: "Biblical person names for KJV to Vietnamese translation"
-  last_updated: "2026-02-09T01:02:09Z"
+  last_updated: "2026-02-09T11:30:24Z"
 
 people:
   - name: "Adam"
@@ -411,3 +411,712 @@ people:
   - name: "Hur"
     vietnamese: "Hu"
     notes: "Assistant to Moses, with Aaron; held up Moses' hands during battle with Amalek (Exodus 17:10-12)"
+
+  # === Nehemiah Names ===
+  - name: "Nehemiah"
+    vietnamese: "Nê-hê-mi"
+    formal: "Đức Nê-hê-mi"
+    notes: "Jewish cupbearer to Persian king Artaxerxes; led rebuilding of Jerusalem's walls; name means 'Yahweh comforts'"
+
+  - name: "Hanani"
+    vietnamese: "Ha-na-ni"
+    notes: "Brother of Nehemiah; brought news of Jerusalem's condition to Nehemiah (Nehemiah 1:2)"
+
+  - name: "Hachaliah"
+    vietnamese: "Ha-chia"
+    notes: "Father of Nehemiah (Nehemiah 1:1)"
+
+  - name: "Artaxerxes"
+    vietnamese: "A-ta-xét-xét"
+    notes: "Persian king during Nehemiah's time; granted Nehemiah permission to rebuild Jerusalem's walls (Nehemiah 2:1)"
+
+  - name: "Sanballat"
+    vietnamese: "Xan-ba-lát"
+    notes: "The Horonite; opposed Nehemiah's rebuilding of Jerusalem walls (Nehemiah 2:10)"
+
+  - name: "Tobiah"
+    vietnamese: "Tô-bi-a"
+    notes: "The Ammonite servant; opposed Nehemiah's rebuilding of Jerusalem walls (Nehemiah 2:10)"
+
+  - name: "Geshem"
+    vietnamese: "Gê-sêm"
+    notes: "The Arabian; opposed Nehemiah's rebuilding of Jerusalem walls (Nehemiah 2:19)"
+
+  - name: "Asaph"
+    vietnamese: "A-sáp"
+    notes: "Keeper of the king's forest; provided timber for Nehemiah's building project (Nehemiah 2:8)"
+
+  # === Nehemiah 3 Names ===
+  - name: "Eliashib"
+    vietnamese: "Ê-li-a-síp"
+    notes: "High priest who helped rebuild sheep gate (Nehemiah 3:1)"
+
+  - name: "Meah"
+    vietnamese: "Mê-a"
+    notes: "Tower in Jerusalem wall (Nehemiah 3:1)"
+
+  - name: "Hananeel"
+    vietnamese: "Ha-na-a-nên"
+    notes: "Tower in Jerusalem wall (Nehemiah 3:1)"
+
+  - name: "Zaccur"
+    vietnamese: "Xa-cúr"
+    notes: "Son of Imri; helped rebuild Jerusalem wall (Nehemiah 3:2)"
+
+  - name: "Imri"
+    vietnamese: "Im-ri"
+    notes: "Father of Zaccur (Nehemiah 3:2)"
+
+  - name: "Hassenaah"
+    vietnamese: "Ha-xê-na"
+    notes: "Father of sons who built fish gate (Nehemiah 3:3)"
+
+  - name: "Meremoth"
+    vietnamese: "Mê-rê-mô-th"
+    notes: "Son of Urijah; helped repair Jerusalem wall (Nehemiah 3:4)"
+
+  - name: "Urijah"
+    vietnamese: "U-ri-a"
+    notes: "Father of Meremoth (Nehemiah 3:4)"
+
+  - name: "Koz"
+    vietnamese: "Cót"
+    notes: "Grandfather of Meremoth (Nehemiah 3:4)"
+
+  - name: "Meshullam"
+    vietnamese: "Mê-su-lam"
+    notes: "Son of Berechiah; helped repair Jerusalem wall (Nehemiah 3:4)"
+
+  - name: "Berechiah"
+    vietnamese: "Bê-rê-chia"
+    notes: "Father of Meshullam (Nehemiah 3:4)"
+
+  - name: "Meshezabeel"
+    vietnamese: "Mê-xê-za-bên"
+    notes: "Grandfather of Meshullam (Nehemiah 3:4)"
+
+  - name: "Zadok"
+    vietnamese: "Sa-đốc"
+    notes: "Son of Baana; helped repair Jerusalem wall (Nehemiah 3:4)"
+
+  - name: "Baana"
+    vietnamese: "Ba-a-na"
+    notes: "Father of Zadok (Nehemiah 3:4)"
+
+  - name: "Jehoiada"
+    vietnamese: "Gê-hô-i-a-đa"
+    notes: "Son of Paseah; repaired old gate (Nehemiah 3:6)"
+
+  - name: "Paseah"
+    vietnamese: "Pa-xê-a"
+    notes: "Father of Jehoiada (Nehemiah 3:6)"
+
+  - name: "Besodeiah"
+    vietnamese: "Bê-xô-di-a"
+    notes: "Father of Meshullam (Nehemiah 3:6)"
+
+  - name: "Melatiah"
+    vietnamese: "Mê-la-ti-a"
+    notes: "The Gibeonite; helped repair Jerusalem wall (Nehemiah 3:7)"
+
+  - name: "Jadon"
+    vietnamese: "Gia-đôn"
+    notes: "The Meronothite; helped repair Jerusalem wall (Nehemiah 3:7)"
+
+  - name: "Uzziel"
+    vietnamese: "Uz-i-ên"
+    notes: "Son of Harhaiah; goldsmith who repaired wall (Nehemiah 3:8)"
+
+  - name: "Harhaiah"
+    vietnamese: "Ha-ha-i-a"
+    notes: "Father of Uzziel (Nehemiah 3:8)"
+
+  - name: "Hananiah"
+    vietnamese: "Ha-na-ni-a"
+    notes: "Son of apothecary; helped fortify Jerusalem (Nehemiah 3:8)"
+
+  - name: "Rephaiah"
+    vietnamese: "Rê-phai-a"
+    notes: "Son of Hur; ruler of half part of Jerusalem (Nehemiah 3:9)"
+
+  - name: "Jedaiah"
+    vietnamese: "Gê-đai-a"
+    notes: "Son of Harumaph; repaired wall (Nehemiah 3:10)"
+
+  - name: "Harumaph"
+    vietnamese: "Ha-ru-máf"
+    notes: "Father of Jedaiah (Nehemiah 3:10)"
+
+  - name: "Hattush"
+    vietnamese: "Hát-tút"
+    notes: "Son of Hashabniah; repaired wall (Nehemiah 3:10)"
+
+  - name: "Hashabniah"
+    vietnamese: "Ha-xab-ni-a"
+    notes: "Father of Hattush (Nehemiah 3:10)"
+
+  - name: "Malchijah"
+    vietnamese: "Ma-lê-ki-a"
+    notes: "Son of Harim; repaired tower of furnaces (Nehemiah 3:11)"
+
+  - name: "Harim"
+    vietnamese: "Ha-rim"
+    notes: "Father of Malchijah (Nehemiah 3:11)"
+
+  - name: "Hashub"
+    vietnamese: "Ha-xub"
+    notes: "Son of Pahathmoab; repaired wall (Nehemiah 3:11)"
+
+  - name: "Pahathmoab"
+    vietnamese: "Pa-hát-mô-áp"
+    notes: "Father of Hashub (Nehemiah 3:11)"
+
+  - name: "Shallum"
+    vietnamese: "Xal-lum"
+    notes: "Son of Halohesh; ruler of half part of Jerusalem (Nehemiah 3:12)"
+
+  - name: "Halohesh"
+    vietnamese: "Ha-lô-hét"
+    notes: "Father of Shallum (Nehemiah 3:12)"
+
+  - name: "Hanun"
+    vietnamese: "Ha-nun"
+    notes: "Repaired valley gate (Nehemiah 3:13)"
+
+  - name: "Rechab"
+    vietnamese: "Rê-cháb"
+    notes: "Father of Malchiah (Nehemiah 3:14)"
+
+  - name: "Shallun"
+    vietnamese: "Xal-lun"
+    notes: "Son of Colhozeh; repaired fountain gate (Nehemiah 3:15)"
+
+  - name: "Colhozeh"
+    vietnamese: "Côn-hô-xê"
+    notes: "Father of Shallun (Nehemiah 3:15)"
+
+  - name: "Azbuk"
+    vietnamese: "A-x-búc"
+    notes: "Father of Nehemiah (Nehemiah 3:16)"
+
+  - name: "Rehum"
+    vietnamese: "Rê-hum"
+    notes: "Son of Bani; Levite who repaired wall (Nehemiah 3:17)"
+
+  - name: "Bani"
+    vietnamese: "Ba-ni"
+    notes: "Father of Rehum (Nehemiah 3:17)"
+
+  - name: "Hashabiah"
+    vietnamese: "Ha-xa-bi-a"
+    notes: "Ruler of half part of Keilah (Nehemiah 3:17)"
+
+  - name: "Bavai"
+    vietnamese: "Ba-vai"
+    notes: "Son of Henadad; ruler of half part of Keilah (Nehemiah 3:18)"
+
+  - name: "Henadad"
+    vietnamese: "Hê-na-đát"
+    notes: "Father of Bavai (Nehemiah 3:18)"
+
+  - name: "Ezer"
+    vietnamese: "Ê-xê"
+    notes: "Son of Jeshua; ruler of Mizpah (Nehemiah 3:19)"
+
+  - name: "Jeshua"
+    vietnamese: "Gê-sua"
+    notes: "Father of Ezer (Nehemiah 3:19)"
+
+  - name: "Baruch"
+    vietnamese: "Ba-rúc"
+    notes: "Son of Zabbai; earnestly repaired wall (Nehemiah 3:20)"
+
+  - name: "Zabbai"
+    vietnamese: "Xab-bai"
+    notes: "Father of Baruch (Nehemiah 3:20)"
+
+  - name: "Benjamin"
+    vietnamese: "Bê-ni-a-min"
+    notes: "Repaired wall over against his house (Nehemiah 3:23)"
+
+  - name: "Azariah"
+    vietnamese: "A-xa-ri-a"
+    notes: "Son of Maaseiah; repaired wall (Nehemiah 3:23)"
+
+  - name: "Maaseiah"
+    vietnamese: "Ma-a-xê-a"
+    notes: "Father of Azariah (Nehemiah 3:23)"
+
+  - name: "Ananiah"
+    vietnamese: "A-na-ni-a"
+    notes: "Grandfather of Azariah (Nehemiah 3:23)"
+
+  - name: "Binnui"
+    vietnamese: "Bỉn-nu-i"
+    notes: "Son of Henadad; repaired wall (Nehemiah 3:24)"
+
+  - name: "Palal"
+    vietnamese: "Pa-lal"
+    notes: "Son of Uzai; repaired wall (Nehemiah 3:25)"
+
+  - name: "Uzai"
+    vietnamese: "U-zai"
+    notes: "Father of Palal (Nehemiah 3:25)"
+
+  - name: "Pedaiah"
+    vietnamese: "Pê-đai-a"
+    notes: "Son of Parosh; repaired wall (Nehemiah 3:25)"
+
+  - name: "Parosh"
+    vietnamese: "Pa-rót"
+    notes: "Father of Pedaiah (Nehemiah 3:25)"
+
+  - name: "Shelemiah"
+    vietnamese: "Xê-lê-mi-a"
+    notes: "Father of Hananiah (Nehemiah 3:30)"
+
+  - name: "Zalaph"
+    vietnamese: "Xa-láp"
+    notes: "Father of Hanun (Nehemiah 3:30)"
+
+  - name: "Shechaniah"
+    vietnamese: "Xê-cha-ni-a"
+    notes: "Father of Shemaiah (Nehemiah 3:29)"
+
+  # === Nehemiah 8 Names ===
+  - name: "Mattithiah"
+    vietnamese: "Ma-ti-thi-a"
+    notes: "Stood beside Ezra on his right (Nehemiah 8:4)"
+
+  - name: "Shema"
+    vietnamese: "Xê-ma"
+    notes: "Stood beside Ezra on his right (Nehemiah 8:4)"
+
+  - name: "Anaiah"
+    vietnamese: "A-nai-a"
+    notes: "Stood beside Ezra on his right (Nehemiah 8:4)"
+
+  - name: "Hilkiah"
+    vietnamese: "Hil-ki-a"
+    notes: "Stood beside Ezra on his right (Nehemiah 8:4)"
+
+  - name: "Hashbadana"
+    vietnamese: "Ha-xab-đa-na"
+    notes: "Stood beside Ezra on his left (Nehemiah 8:4)"
+
+  - name: "Jozabad"
+    vietnamese: "Giô-za-bát"
+    notes: "Levite who helped people understand the law (Nehemiah 8:7)"
+
+  - name: "Pelaiah"
+    vietnamese: "Pê-lai-a"
+    notes: "Levite who helped people understand the law (Nehemiah 8:7)"
+
+  # === Nehemiah 9 Names ===
+  - name: "Shebaniah"
+    vietnamese: "Xê-ba-ni-a"
+    notes: "Levite who stood on stairs and cried to the LORD (Nehemiah 9:4)"
+
+  - name: "Chenani"
+    vietnamese: "Xê-na-ni"
+    notes: "Levite who stood on stairs and cried to the LORD (Nehemiah 9:4)"
+
+  - name: "Pethahiah"
+    vietnamese: "Pê-tha-i-a"
+    notes: "Levite who led blessing of the LORD (Nehemiah 9:5)"
+
+  # === Nehemiah 10 Names ===
+  - name: "Zidkijah"
+    vietnamese: "Xít-ki-a"
+    notes: "Sealed the covenant with Nehemiah (Nehemiah 10:1)"
+
+  - name: "Seraiah"
+    vietnamese: "Xê-ra-i-a"
+    notes: "Priest who sealed the covenant (Nehemiah 10:2)"
+
+  - name: "Jeremiah"
+    vietnamese: "Giê-rê-mi"
+    notes: "Priest who sealed the covenant (Nehemiah 10:2)"
+
+  - name: "Amariah"
+    vietnamese: "A-ma-ri-a"
+    notes: "Priest who sealed the covenant (Nehemiah 10:3)"
+
+  - name: "Malluch"
+    vietnamese: "Ma-lúc"
+    notes: "Priest who sealed the covenant (Nehemiah 10:4)"
+
+  - name: "Obadiah"
+    vietnamese: "Ô-ba-di-a"
+    notes: "Priest who sealed the covenant (Nehemiah 10:5)"
+
+  - name: "Ginnethon"
+    vietnamese: "Gin-nê-thôn"
+    notes: "Priest who sealed the covenant (Nehemiah 10:6)"
+
+  - name: "Abijah"
+    vietnamese: "A-bi-a"
+    notes: "Priest who sealed the covenant (Nehemiah 10:7)"
+
+  - name: "Mijamin"
+    vietnamese: "Mi-gia-min"
+    notes: "Priest who sealed the covenant (Nehemiah 10:7)"
+
+  - name: "Maaziah"
+    vietnamese: "Ma-a-zi-a"
+    notes: "Priest who sealed the covenant (Nehemiah 10:8)"
+
+  - name: "Bilgai"
+    vietnamese: "Bil-gai"
+    notes: "Priest who sealed the covenant (Nehemiah 10:8)"
+
+  - name: "Azaniah"
+    vietnamese: "A-xa-ni-a"
+    notes: "Father of Jeshua the Levite (Nehemiah 10:9)"
+
+  - name: "Micha"
+    vietnamese: "Mi-ca"
+    notes: "Levite who sealed the covenant (Nehemiah 10:11)"
+
+  - name: "Rehob"
+    vietnamese: "Rê-hôb"
+    notes: "Levite who sealed the covenant (Nehemiah 10:11)"
+
+  - name: "Beninu"
+    vietnamese: "Bê-ni-nu"
+    notes: "Levite who sealed the covenant (Nehemiah 10:13)"
+
+  - name: "Adonijah"
+    vietnamese: "A-đô-ni-a"
+    notes: "Chief of the people who sealed covenant (Nehemiah 10:16)"
+
+  - name: "Ater"
+    vietnamese: "A-tê"
+    notes: "Chief of the people who sealed covenant (Nehemiah 10:17)"
+
+  - name: "Hizkijah"
+    vietnamese: "Hê-xê-ki-a"
+    notes: "Chief of the people who sealed covenant (Nehemiah 10:17)"
+
+  - name: "Azzur"
+    vietnamese: "Az-xua"
+    notes: "Chief of the people who sealed covenant (Nehemiah 10:17)"
+
+  - name: "Magpiash"
+    vietnamese: "Mag-pi-a"
+    notes: "Chief of the people who sealed covenant (Nehemiah 10:20)"
+
+  - name: "Hezir"
+    vietnamese: "Hê-xi"
+    notes: "Chief of the people who sealed covenant (Nehemiah 10:20)"
+
+  - name: "Jaddua"
+    vietnamese: "Gad-du-a"
+    notes: "Chief of the people who sealed covenant (Nehemiah 10:21)"
+
+  - name: "Hoshea"
+    vietnamese: "Hô-xê-a"
+    notes: "Chief of the people who sealed covenant (Nehemiah 10:23)"
+
+  - name: "Pileha"
+    vietnamese: "Pi-lê-ha"
+    notes: "Chief of the people who sealed covenant (Nehemiah 10:24)"
+
+  - name: "Shobek"
+    vietnamese: "Xô-bêc"
+    notes: "Chief of the people who sealed covenant (Nehemiah 10:24)"
+
+  - name: "Ahijah"
+    vietnamese: "A-hi-a"
+    notes: "Chief of the people who sealed covenant (Nehemiah 10:26)"
+
+  # === Nehemiah 11 Names ===
+  - name: "Athaiah"
+    vietnamese: "A-tai-a"
+    notes: "Son of Uzziah; dwelt in Jerusalem (Nehemiah 11:4)"
+
+  - name: "Mahalaleel"
+    vietnamese: "Ma-ha-la-ên"
+    notes: "Ancestor of Athaiah (Nehemiah 11:4)"
+
+  - name: "Joiarib"
+    vietnamese: "Giôi-a-rib"
+    notes: "Ancestor of Maaseiah (Nehemiah 11:5)"
+
+  - name: "Shiloni"
+    vietnamese: "Xi-lô-ni"
+    notes: "Ancestor of Maaseiah (Nehemiah 11:5)"
+
+  - name: "Sallu"
+    vietnamese: "Xal-lu"
+    notes: "Son of Meshullam; Benjamite dwelling in Jerusalem (Nehemiah 11:7)"
+
+  - name: "Joed"
+    vietnamese: "Giô-ê"
+    notes: "Ancestor of Sallu (Nehemiah 11:7)"
+
+  - name: "Kolaiah"
+    vietnamese: "Cô-lai-a"
+    notes: "Ancestor of Sallu (Nehemiah 11:7)"
+
+  - name: "Ithiel"
+    vietnamese: "I-thi-ên"
+    notes: "Ancestor of Sallu (Nehemiah 11:7)"
+
+  - name: "Jesaiah"
+    vietnamese: "Gê-sai-a"
+    notes: "Ancestor of Sallu (Nehemiah 11:7)"
+
+  - name: "Gabbai"
+    vietnamese: "Gab-bai"
+    notes: "Dwelt in Jerusalem (Nehemiah 11:8)"
+
+  - name: "Sallai"
+    vietnamese: "Xal-lai"
+    notes: "Dwelt in Jerusalem (Nehemiah 11:8)"
+
+  - name: "Zichri"
+    vietnamese: "Xich-ri"
+    notes: "Father of Joel (Nehemiah 11:9)"
+
+  - name: "Senuah"
+    vietnamese: "Xê-nu-a"
+    notes: "Father of Judah (Nehemiah 11:9)"
+
+  - name: "Jachin"
+    vietnamese: "Ga-chin"
+    notes: "Priest (Nehemiah 11:10)"
+
+  - name: "Meraioth"
+    vietnamese: "Mê-ra-iot"
+    notes: "Ancestor of Seraiah (Nehemiah 11:11)"
+
+  - name: "Ahitub"
+    vietnamese: "A-hi-tub"
+    notes: "Ancestor of Seraiah (Nehemiah 11:11)"
+
+  - name: "Jeroham"
+    vietnamese: "Gê-rô-ham"
+    notes: "Ancestor of Adaiah (Nehemiah 11:12)"
+
+  - name: "Pelaliah"
+    vietnamese: "Pê-lai-a"
+    notes: "Ancestor of Adaiah (Nehemiah 11:12)"
+
+  - name: "Amzi"
+    vietnamese: "Am-xi"
+    notes: "Ancestor of Adaiah (Nehemiah 11:12)"
+
+  - name: "Amashai"
+    vietnamese: "A-ma-sai"
+    notes: "Son of Azareel (Nehemiah 11:13)"
+
+  - name: "Azareel"
+    vietnamese: "A-xa-rên"
+    notes: "Father of Amashai (Nehemiah 11:13)"
+
+  - name: "Ahasai"
+    vietnamese: "A-ha-sai"
+    notes: "Ancestor of Amashai (Nehemiah 11:13)"
+
+  - name: "Meshillemoth"
+    vietnamese: "Mê-xil-lê-môt"
+    notes: "Ancestor of Amashai (Nehemiah 11:13)"
+
+  - name: "Zabdiel"
+    vietnamese: "Xab-di-ên"
+    notes: "Overseer of Levites (Nehemiah 11:14)"
+
+  - name: "Azrikam"
+    vietnamese: "Az-ri-kam"
+    notes: "Ancestor of Shemaiah (Nehemiah 11:15)"
+
+  - name: "Mattaniah"
+    vietnamese: "Mat-ta-ni-a"
+    notes: "Principal to begin thanksgiving in prayer (Nehemiah 11:17)"
+
+  - name: "Zabdi"
+    vietnamese: "Xab-di"
+    notes: "Father of Mattaniah (Nehemiah 11:17)"
+
+  - name: "Bakbukiah"
+    vietnamese: "Bac-bu-ki-a"
+    notes: "Second among Mattaniah's brethren (Nehemiah 11:17)"
+
+  - name: "Abda"
+    vietnamese: "Ab-đa"
+    notes: "Son of Shammua (Nehemiah 11:17)"
+
+  - name: "Shammua"
+    vietnamese: "Xam-mu-a"
+    notes: "Father of Abda (Nehemiah 11:17)"
+
+  - name: "Galal"
+    vietnamese: "Ga-lal"
+    notes: "Father of Shammua (Nehemiah 11:17)"
+
+  - name: "Jeduthun"
+    vietnamese: "Gê-ru-tun"
+    notes: "Father of Galal (Nehemiah 11:17)"
+
+  - name: "Ziha"
+    vietnamese: "Xi-ha"
+    notes: "Over the Nethinims (Nehemiah 11:21)"
+
+  - name: "Gispa"
+    vietnamese: "Gis-pa"
+    notes: "Over the Nethinims (Nehemiah 11:21)"
+
+  - name: "Uzzi"
+    vietnamese: "Uz-xi"
+    notes: "Overseer of Levites at Jerusalem (Nehemiah 11:22)"
+
+  - name: "Zerah"
+    vietnamese: "Xê-rách"
+    notes: "Son of Judah; ancestor of Pethahiah (Nehemiah 11:24)"
+
+  # === Nehemiah 12 Names ===
+  - name: "Shealtiel"
+    vietnamese: "Xê-alti-ên"
+    notes: "Father of Zerubbabel (Nehemiah 12:1)"
+
+  - name: "Miamin"
+    vietnamese: "Mi-a-min"
+    notes: "Priest who went up with Zerubbabel (Nehemiah 12:5)"
+
+  - name: "Maadiah"
+    vietnamese: "Ma-a-di-a"
+    notes: "Priest who went up with Zerubbabel (Nehemiah 12:5)"
+
+  - name: "Bilgah"
+    vietnamese: "Bil-gah"
+    notes: "Priest who went up with Zerubbabel (Nehemiah 12:5)"
+
+  - name: "Amok"
+    vietnamese: "A-móc"
+    notes: "Priest who went up with Zerubbabel (Nehemiah 12:7)"
+
+  - name: "Unni"
+    vietnamese: "Un-ni"
+    notes: "Levite, brother of Bakbukiah (Nehemiah 12:9)"
+
+  - name: "Joiakim"
+    vietnamese: "Giôi-a-kim"
+    notes: "Son of Jeshua, father of Eliashib (Nehemiah 12:10)"
+
+  - name: "Jonathan"
+    vietnamese: "Giô-na-than"
+    notes: "Son of Joiada, father of Jaddua (Nehemiah 12:11)"
+
+  - name: "Meraiah"
+    vietnamese: "Mê-ra-i-a"
+    notes: "Chief of fathers in days of Joiakim (Nehemiah 12:12)"
+
+  - name: "Jehohanan"
+    vietnamese: "Gê-hô-a-nan"
+    notes: "Chief of fathers in days of Joiakim (Nehemiah 12:13)"
+
+  - name: "Melicu"
+    vietnamese: "Mê-li-cu"
+    notes: "Chief of fathers in days of Joiakim (Nehemiah 12:14)"
+
+  - name: "Adna"
+    vietnamese: "Áp-na"
+    notes: "Chief of fathers in days of Joiakim (Nehemiah 12:15)"
+
+  - name: "Helkai"
+    vietnamese: "Hêl-kai"
+    notes: "Chief of fathers in days of Joiakim (Nehemiah 12:15)"
+
+  - name: "Miniamin"
+    vietnamese: "Mi-ni-a-min"
+    notes: "Chief of fathers in days of Joiakim (Nehemiah 12:17)"
+
+  - name: "Moadiah"
+    vietnamese: "Mô-a-di-a"
+    notes: "Chief of fathers in days of Joiakim (Nehemiah 12:17)"
+
+  - name: "Piltai"
+    vietnamese: "Pil-tai"
+    notes: "Chief of fathers in days of Joiakim (Nehemiah 12:17)"
+
+  - name: "Shammua"
+    vietnamese: "Xam-mu-a"
+    notes: "Chief of fathers in days of Joiakim (Nehemiah 12:18)"
+
+  - name: "Jehonathan"
+    vietnamese: "Gê-hô-na-than"
+    notes: "Chief of fathers in days of Joiakim (Nehemiah 12:18)"
+
+  - name: "Mattenai"
+    vietnamese: "Mat-tê-nai"
+    notes: "Chief of fathers in days of Joiakim (Nehemiah 12:19)"
+
+  - name: "Kallai"
+    vietnamese: "Cal-lai"
+    notes: "Chief of fathers in days of Joiakim (Nehemiah 12:20)"
+
+  - name: "Eber"
+    vietnamese: "Ê-bê"
+    notes: "Chief of fathers in days of Joiakim (Nehemiah 12:20)"
+
+  - name: "Nethaneel"
+    vietnamese: "Nê-tha-nên"
+    notes: "Chief of fathers in days of Joiakim (Nehemiah 12:21)"
+
+  - name: "Johanan"
+    vietnamese: "Giô-ha-nan"
+    notes: "Son of Eliashib (Nehemiah 12:22)"
+
+  - name: "Darius"
+    vietnamese: "Đa-ri-u"
+    notes: "Persian king (Nehemiah 12:22)"
+
+  - name: "Michaiah"
+    vietnamese: "Mi-ca-i-a"
+    notes: "Ancestor of Zechariah the priest (Nehemiah 12:35)"
+
+  - name: "Azarael"
+    vietnamese: "A-xa-rên"
+    notes: "Brother of Shemaiah (Nehemiah 12:36)"
+
+  - name: "Milalai"
+    vietnamese: "Mi-la-lai"
+    notes: "Brother of Shemaiah (Nehemiah 12:36)"
+
+  - name: "Gilalai"
+    vietnamese: "Gi-la-lai"
+    notes: "Brother of Shemaiah (Nehemiah 12:36)"
+
+  - name: "Maai"
+    vietnamese: "Mai"
+    notes: "Brother of Shemaiah (Nehemiah 12:36)"
+
+  - name: "Eliakim"
+    vietnamese: "Ê-li-a-kim"
+    notes: "Priest with trumpets (Nehemiah 12:41)"
+
+  - name: "Eleazar"
+    vietnamese: "Ê-le-a-sa"
+    notes: "Priest at dedication (Nehemiah 12:42)"
+
+  - name: "Jezrahiah"
+    vietnamese: "Gê-xra-i-a"
+    notes: "Overseer of singers (Nehemiah 12:42)"
+
+  # === Nehemiah 13 Names ===
+  - name: "Balaam"
+    vietnamese: "Ba-la-am"
+    notes: "Hired by Ammonites and Moabites to curse Israel (Nehemiah 13:2)"
+
+  - name: "Shelemiah"
+    vietnamese: "Xê-lê-mi-a"
+    notes: "Priest made treasurer (Nehemiah 13:13)"
+
+  - name: "Hanan"
+    vietnamese: "Ha-nan"
+    notes: "Son of Zaccur; helped with treasuries (Nehemiah 13:13)"
+
+  - name: "Joiada"
+    vietnamese: "Giôi-a-đa"
+    notes: "Father of son who married foreign woman (Nehemiah 13:28)"

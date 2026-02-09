@@ -3,7 +3,7 @@ metadata:
   version: "1.0"
   tradition: "Vietnamese Protestant"
   description: "Biblical cities and places for KJV to Vietnamese translation"
-  last_updated: "2026-02-08T00:00:00Z"
+  last_updated: "2026-02-09T11:28:41Z"
 
 cities:
   - english: "Eden"
@@ -73,3 +73,281 @@ cities:
     vietnamese: "Me-ri-ba"
     region: "Sinai Peninsula"
     notes: "Hebrew name meaning 'contention' or 'strife'; place where Israel quarreled with Moses (Exodus 17:7)"
+
+  # === Nehemiah Places ===
+  - english: "Shushan"
+    vietnamese: "Su-sa"
+    region: "Persia"
+    notes: "Also called Susa; winter capital of Persian Empire; palace where Nehemiah served as cupbearer (Nehemiah 1:1)"
+
+  - english: "Jerusalem"
+    vietnamese: "Giê-ru-sa-lem"
+    region: "Judah"
+    notes: "Holy city of Israel; walls were broken down when Nehemiah heard news; center of Jewish worship"
+
+  - english: "Judah"
+    vietnamese: "Giu-đa"
+    region: "Southern Kingdom"
+    notes: "Southern kingdom of Israel; region from which Hanani and other men came to Nehemiah"
+
+  - english: "Horonite"
+    vietnamese: "người Ho-rô-nít"
+    region: "Horonaim"
+    notes: "Designation for Sanballat, indicating his origin from Horonaim (Nehemiah 2:10)"
+
+  - english: "gate of the valley"
+    vietnamese: "cổng thung lũng"
+    region: "Jerusalem"
+    notes: "Gate in Jerusalem wall through which Nehemiah inspected the ruins (Nehemiah 2:13)"
+
+  - english: "dragon well"
+    vietnamese: "giếng rồng"
+    region: "Jerusalem"
+    notes: "Location near Jerusalem wall that Nehemiah inspected (Nehemiah 2:13)"
+
+  - english: "dung port"
+    vietnamese: "cổng phân bón"
+    region: "Jerusalem"
+    notes: "Dung gate in Jerusalem wall (Nehemiah 2:13)"
+
+  - english: "gate of the fountain"
+    vietnamese: "cổng nguồn nước"
+    region: "Jerusalem"
+    notes: "Fountain gate in Jerusalem wall (Nehemiah 2:14)"
+
+  - english: "king’s pool"
+    vietnamese: "hồ của vua"
+    region: "Jerusalem"
+    notes: "Pool in Jerusalem near the fountain gate (Nehemiah 2:14)"
+
+  # === Nehemiah 3 Places ===
+  - english: "sheep gate"
+    vietnamese: "cổng chiên"
+    region: "Jerusalem"
+    notes: "Gate in Jerusalem wall rebuilt by Eliashib and priests (Nehemiah 3:1)"
+
+  - english: "tower of Meah"
+    vietnamese: "tháp của Mê-a"
+    region: "Jerusalem"
+    notes: "Tower in Jerusalem wall (Nehemiah 3:1)"
+
+  - english: "tower of Hananeel"
+    vietnamese: "tháp của Ha-na-a-nên"
+    region: "Jerusalem"
+    notes: "Tower in Jerusalem wall (Nehemiah 3:1)"
+
+  - english: "fish gate"
+    vietnamese: "cổng cá"
+    region: "Jerusalem"
+    notes: "Gate in Jerusalem wall built by sons of Hassenaah (Nehemiah 3:3)"
+
+  - english: "old gate"
+    vietnamese: "cổng cũ"
+    region: "Jerusalem"
+    notes: "Gate in Jerusalem wall repaired by Jehoiada (Nehemiah 3:6)"
+
+  - english: "Gibeon"
+    vietnamese: "Gi-bê-ôn"
+    region: "Judah"
+    notes: "City of Melatiah the Gibeonite (Nehemiah 3:7)"
+
+  - english: "Mizpah"
+    vietnamese: "Miz-pa"
+    region: "Judah"
+    notes: "City whose men helped repair wall (Nehemiah 3:7)"
+
+  - english: "broad wall"
+    vietnamese: "bức tường rộng"
+    region: "Jerusalem"
+    notes: "Section of Jerusalem wall fortified (Nehemiah 3:8)"
+
+  - english: "tower of the furnaces"
+    vietnamese: "tháp của các lò"
+    region: "Jerusalem"
+    notes: "Tower in Jerusalem wall (Nehemiah 3:11)"
+
+  - english: "Bethhaccerem"
+    vietnamese: "Bết-ha-xê-rêm"
+    region: "Judah"
+    notes: "Place where Malchiah ruled (Nehemiah 3:14)"
+
+  - english: "pool of Siloah"
+    vietnamese: "hồ Si-lô-a"
+    region: "Jerusalem"
+    notes: "Pool near king's garden (Nehemiah 3:15)"
+
+  - english: "city of David"
+    vietnamese: "thành phố của Đa-vít"
+    region: "Jerusalem"
+    notes: "Section of Jerusalem with stairs (Nehemiah 3:15)"
+
+  - english: "Bethzur"
+    vietnamese: "Bết-xua"
+    region: "Judah"
+    notes: "City where Nehemiah son of Azbuk ruled (Nehemiah 3:16)"
+
+  - english: "sepulchres of David"
+    vietnamese: "mộ của Đa-vít"
+    region: "Jerusalem"
+    notes: "Tombs of David (Nehemiah 3:16)"
+
+  - english: "Keilah"
+    vietnamese: "Kê-i-la"
+    region: "Judah"
+    notes: "City where Hashabiah and Bavai ruled (Nehemiah 3:17-18)"
+
+  - english: "armoury"
+    vietnamese: "kho vũ khí"
+    region: "Jerusalem"
+    notes: "Place near wall repair (Nehemiah 3:19)"
+
+  - english: "Ophel"
+    vietnamese: "Ô-phên"
+    region: "Jerusalem"
+    notes: "Area where Nethinims dwelt (Nehemiah 3:26)"
+
+  - english: "water gate"
+    vietnamese: "cổng nước"
+    region: "Jerusalem"
+    notes: "Gate toward east in Jerusalem (Nehemiah 3:26)"
+
+  - english: "horse gate"
+    vietnamese: "cổng ngựa"
+    region: "Jerusalem"
+    notes: "Gate in Jerusalem wall (Nehemiah 3:28)"
+
+  - english: "east gate"
+    vietnamese: "cổng đông"
+    region: "Jerusalem"
+    notes: "Gate kept by Shemaiah (Nehemiah 3:29)"
+
+  - english: "gate Miphkad"
+    vietnamese: "cổng Miph-kát"
+    region: "Jerusalem"
+    notes: "Gate in Jerusalem wall (Nehemiah 3:31)"
+
+  # === Nehemiah 11 Places ===
+  - english: "Kirjatharba"
+    vietnamese: "Kir-jath-ar-ba"
+    region: "Judah"
+    notes: "City where children of Judah dwelt (Nehemiah 11:25)"
+
+  - english: "Dibon"
+    vietnamese: "Di-bôn"
+    region: "Judah"
+    notes: "City where children of Judah dwelt (Nehemiah 11:25)"
+
+  - english: "Jekabzeel"
+    vietnamese: "Gê-kab-xê-ên"
+    region: "Judah"
+    notes: "City where children of Judah dwelt (Nehemiah 11:25)"
+
+  - english: "Jeshua"
+    vietnamese: "Gê-sua"
+    region: "Judah"
+    notes: "City where children of Judah dwelt (Nehemiah 11:26)"
+
+  - english: "Moladah"
+    vietnamese: "Mô-la-đa"
+    region: "Judah"
+    notes: "City where children of Judah dwelt (Nehemiah 11:26)"
+
+  - english: "Bethphelet"
+    vietnamese: "Bết-phê-lét"
+    region: "Judah"
+    notes: "City where children of Judah dwelt (Nehemiah 11:26)"
+
+  - english: "Hazarshual"
+    vietnamese: "Ha-xar-xua"
+    region: "Judah"
+    notes: "City where children of Judah dwelt (Nehemiah 11:27)"
+
+  - english: "Beersheba"
+    vietnamese: "Bê-ê-xê-ba"
+    region: "Judah"
+    notes: "City where children of Judah dwelt (Nehemiah 11:27)"
+
+  - english: "Ziklag"
+    vietnamese: "Xiclác"
+    region: "Judah"
+    notes: "City where children of Judah dwelt (Nehemiah 11:28)"
+
+  - english: "Mekonah"
+    vietnamese: "Mê-cô-na"
+    region: "Judah"
+    notes: "City where children of Judah dwelt (Nehemiah 11:28)"
+
+  - english: "Enrimmon"
+    vietnamese: "Ên-rim-môn"
+    region: "Judah"
+    notes: "City where children of Judah dwelt (Nehemiah 11:29)"
+
+  - english: "Zareah"
+    vietnamese: "Xa-rê-a"
+    region: "Judah"
+    notes: "City where children of Judah dwelt (Nehemiah 11:29)"
+
+  - english: "Jarmuth"
+    vietnamese: "Gia-mút"
+    region: "Judah"
+    notes: "City where children of Judah dwelt (Nehemiah 11:29)"
+
+  - english: "Adullam"
+    vietnamese: "A-đu-lam"
+    region: "Judah"
+    notes: "City where children of Judah dwelt (Nehemiah 11:30)"
+
+  - english: "Lachish"
+    vietnamese: "La-chít"
+    region: "Judah"
+    notes: "City where children of Judah dwelt (Nehemiah 11:30)"
+
+  - english: "Azekah"
+    vietnamese: "A-xê-ká"
+    region: "Judah"
+    notes: "City where children of Judah dwelt (Nehemiah 11:30)"
+
+  - english: "valley of Hinnom"
+    vietnamese: "thung lũng Hin-nôm"
+    region: "Judah"
+    notes: "Valley from Beersheba (Nehemiah 11:30)"
+
+  - english: "Michmash"
+    vietnamese: "Mich-ma"
+    region: "Benjamin"
+    notes: "City where children of Benjamin dwelt (Nehemiah 11:31)"
+
+  - english: "Aija"
+    vietnamese: "Ai-a"
+    region: "Benjamin"
+    notes: "City where children of Benjamin dwelt (Nehemiah 11:31)"
+
+  - english: "Nob"
+    vietnamese: "Nôb"
+    region: "Benjamin"
+    notes: "City where children of Benjamin dwelt (Nehemiah 11:32)"
+
+  - english: "Ananiah"
+    vietnamese: "A-ni-a"
+    region: "Benjamin"
+    notes: "City where children of Benjamin dwelt (Nehemiah 11:32)"
+
+  - english: "Hazor"
+    vietnamese: "Ha-xo"
+    region: "Benjamin"
+    notes: "City where children of Benjamin dwelt (Nehemiah 11:33)"
+
+  - english: "Gittaim"
+    vietnamese: "Git-taim"
+    region: "Benjamin"
+    notes: "City where children of Benjamin dwelt (Nehemiah 11:33)"
+
+  - english: "Neballat"
+    vietnamese: "Nê-ba-lát"
+    region: "Benjamin"
+    notes: "City where children of Benjamin dwelt (Nehemiah 11:34)"
+
+  - english: "valley of craftsmen"
+    vietnamese: "thung lũng của các nghệ nhân"
+    region: "Benjamin"
+    notes: "Valley near Lod and Ono (Nehemiah 11:35)"
