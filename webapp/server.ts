@@ -126,9 +126,23 @@ async function loadChapter(bookId: string, chapterNum: number): Promise<{ number
 
   try {
     const content = await fs.readFile(filePath, 'utf8');
-    const data = yaml.load(content) as TranslationData;
+    const docs = yaml.loadAll(content) as any[];
 
     const chapterKey = String(chapterNum);
+    let data: TranslationData | null = null;
+
+    // Find the document that contains the chapter key
+    for (const doc of docs) {
+      if (doc && typeof doc === 'object' && doc[chapterKey]) {
+        data = doc as TranslationData;
+        break;
+      }
+    }
+
+    if (!data) {
+      return null;
+    }
+
     const verseMap = data[chapterKey];
 
     if (!verseMap) {
