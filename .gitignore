@@ -3,3 +3,6 @@
 /findings.md
 /notes.txt
 /webapp/node_modules
+/translate-tasks.db
+webapp/server_output.log
+node_modules

@@ -4,7 +4,7 @@ metadata:
   tradition: "Vietnamese Protestant"
   source_base: "1925 Bible, Protestant theological manuals"
   encoding: "UTF-8"
-  last_updated: "2026-02-08T11:02:16Z"
+  last_updated: "2026-02-09T00:01:28Z"
   description: "Structured glossary for KJV to Vietnamese Bible translation following Complete Equivalence principle"
 
 categories:
@@ -388,6 +388,42 @@ terms:
         register: "formal"
         use_when: "Contrast with Israelites"
     notes: "Non-Israelite resident in Israel"
+
+  - term: "Hebrews"
+    category: "ministry"
+    variants: ["Hebrew", "an Hebrew"]
+    translations:
+      - vietnamese: "Người Hê-bơ-rơ"
+        register: "formal"
+        use_when: "Individual reference, 'a Hebrew'"
+        primary: true
+      - vietnamese: "the Hebrews"
+        register: "formal"
+        use_when: "Collective plural, 'of the Hebrews'"
+        vietnamese: "Người Hê-bơ-rơ"
+      - vietnamese: "Hebrews' children"
+        register: "formal"
+        vietnamese: "Đứa trẻ của người Hê-bơ-rơ"
+    notes: "Ethnic designation for Israelites; from 'Ivri' (one who crosses over)"
+
+  - term: "Egyptian"
+    category: "ministry"
+    variants: ["an Egyptian", "Egyptians"]
+    translations:
+      - vietnamese: "Người Ê-díp-tô"
+        register: "formal"
+        use_when: "Individual or collective"
+        primary: true
+    notes: "People of Egypt; contrast with Israelites in Exodus narrative"
+
+  - term: "Amalek"
+    category: "ministry"
+    variants: ["Amalek", "Amalekites"]
+    translations:
+      - vietnamese: "A-ma-lếc"
+        register: "formal"
+        primary: true
+    notes: "Descendant of Esau; enemy nation that attacked Israel at Rephidim (Exodus 17)"
 
   # === CHRISTOLOGICAL TITLES ===
   - term: "Jesus Christ"
